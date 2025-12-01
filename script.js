@@ -34,6 +34,7 @@ function searchModel() {
                 <th>車種</th>
                 <th>型式</th>
                 <th>純正オイル</th>
+                <th>APIオイル</th>
                 <th>オイル(L)</th>
                 <th>+フィルター(L)</th>
                 <th>純正部品番号</th>
@@ -44,6 +45,7 @@ function searchModel() {
                     <td>${item.car}</td>
                     <td>${item.model}</td>
                     <td>${item.oil_type}</td>
+                    <td>${item.oil_api}</td>
                     <td>${item.oil}</td>
                     <td>${item.filter_oil}</td>
                     <td>${item.part_number !== null ? item.part_number : 'null'}</td>
