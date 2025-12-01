@@ -37,6 +37,7 @@ function searchModel() {
                 <th>オイル(L)</th>
                 <th>+フィルター(L)</th>
                 <th>純正部品番号</th>
+                <th>ACデルコ品番</th>
              </tr>`;
     results.forEach(item => {
         html += `<tr>
@@ -46,6 +47,7 @@ function searchModel() {
                     <td>${item.oil}</td>
                     <td>${item.filter_oil}</td>
                     <td>${item.part_number !== null ? item.part_number : 'null'}</td>
+                    <td>${item.ACDelco_number !== null ? item.ACDelco_number : 'null'}</td>
                  </tr>`;
     });
     html += '</table>';
