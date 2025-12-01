@@ -1,0 +1,8204 @@
+const oilData = {
+  "all_oil": {
+    "ZN6": {
+      "car": 86,
+      "model": "ZN6",
+      "oil_type": "0W-20",
+      "oil": 5.2,
+      "filter_oil": 5.4,
+      "part_number": "SU003-00311"
+    },
+    "QNC20.QNC25": {
+      "car": "bB",
+      "model": "QNC20.QNC25",
+      "oil_type": "0W-20",
+      "oil": 2.8,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "NCP30": {
+      "car": null,
+      "model": "NCP30",
+      "oil_type": "5W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "QCN21": {
+      "car": null,
+      "model": "QCN21",
+      "oil_type": "0W-20",
+      "oil": 2.8,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "NCP31.NCP35": {
+      "car": null,
+      "model": "NCP31.NCP35",
+      "oil_type": "5W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "NGX10": {
+      "car": "C-HR",
+      "model": "NGX10",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 4.0,
+      "part_number": "90915-10003"
+    },
+    "NGX50": {
+      "car": null,
+      "model": "NGX50",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 4.0,
+      "part_number": "90915-10003"
+    },
+    "ZYX10": {
+      "car": null,
+      "model": "ZYX10",
+      "oil_type": "0W-16",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": "90915-10003"
+    },
+    "DB82,DB22": {
+      "car": "GR Supra",
+      "model": "DB82,DB22",
+      "oil_type": "0W-20",
+      "oil": "－",
+      "filter_oil": 5.3,
+      "part_number": null
+    },
+    "DB02": {
+      "car": null,
+      "model": "DB02",
+      "oil_type": "0W-20",
+      "oil": "－",
+      "filter_oil": 6.5,
+      "part_number": null
+    },
+    "DB42": {
+      "car": null,
+      "model": "DB42",
+      "oil_type": "0W-20",
+      "oil": "－",
+      "filter_oil": 6.5,
+      "part_number": null
+    },
+    "MXPA12": {
+      "car": "GR Yaris",
+      "model": "MXPA12",
+      "oil_type": "0W-16",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": "90915-10009"
+    },
+    "GXPA16": {
+      "car": null,
+      "model": "GXPA16",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "90915-10009"
+    },
+    "KGJ10": {
+      "car": "iQ",
+      "model": "KGJ10",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "NGJ10": {
+      "car": null,
+      "model": "NGJ10",
+      "oil_type": "0W-20",
+      "oil": 3.3,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "SW20": {
+      "car": null,
+      "model": "SW20",
+      "oil_type": "10W-30",
+      "oil": 4,
+      "filter_oil": 4.5,
+      "part_number": "90915-10004"
+    },
+    "ZZW30": {
+      "car": "MR-S",
+      "model": "ZZW30",
+      "oil_type": "5W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": "90915-10001 90915-10003"
+    },
+    "MXAA54.MXAA52": {
+      "car": "RAV4",
+      "model": "MXAA54.MXAA52",
+      "oil_type": "0W-16",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "AXAH54.AXAH52": {
+      "car": null,
+      "model": "AXAH54.AXAH52",
+      "oil_type": "0W-16",
+      "oil": 4.2,
+      "filter_oil": 4.5,
+      "part_number": null
+    },
+    "AXAP54": {
+      "car": "RAV4 PHV",
+      "model": "AXAP54",
+      "oil_type": "0W-16",
+      "oil": 4.2,
+      "filter_oil": 4.5,
+      "part_number": "90915-10009"
+    },
+    "ZGM10G.ZGM10W": {
+      "car": null,
+      "model": "ZGM10G.ZGM10W",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ZGM15G.ZGM15W": {
+      "car": null,
+      "model": "ZGM15G.ZGM15W",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ZNM10G.ZNM10W": {
+      "car": null,
+      "model": "ZNM10G.ZNM10W",
+      "oil_type": "5W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "ZGM11G.ZGM11W": {
+      "car": null,
+      "model": "ZGM11G.ZGM11W",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ANM10G.ANM10W": {
+      "car": null,
+      "model": "ANM10G.ANM10W",
+      "oil_type": "5W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ANM15G.ANM15W": {
+      "car": null,
+      "model": "ANM15G.ANM15W",
+      "oil_type": "5W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "NHP10": {
+      "car": "AQUA",
+      "model": "NHP10",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "JZS160": {
+      "car": "ARISTO",
+      "model": "JZS160",
+      "oil_type": "5W-20",
+      "oil": 5.1,
+      "filter_oil": 5.4,
+      "part_number": "90915-20001 90915-20003"
+    },
+    "JZS161": {
+      "car": null,
+      "model": "JZS161",
+      "oil_type": "10W-30",
+      "oil": 5.3,
+      "filter_oil": 5.6,
+      "part_number": "90915-20001 90915-20003"
+    },
+    "GXE10": {
+      "car": "ALTEZZA",
+      "model": "GXE10",
+      "oil_type": "5W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": "90915-20001 90915-20003"
+    },
+    "SXE10": {
+      "car": null,
+      "model": "SXE10",
+      "oil_type": "10W-30",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": "90915-10001 90915-10003"
+    },
+    "JXE10W.JXE15W": {
+      "car": "ALTEZZA   GITA",
+      "model": "JXE10W.JXE15W",
+      "oil_type": "5W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "JCE10W.JCE15W": {
+      "car": null,
+      "model": "JCE10W.JCE15W",
+      "oil_type": "5W-20",
+      "oil": 5.1,
+      "filter_oil": 5.4,
+      "part_number": null
+    },
+    "ATH20W（HYBRID）": {
+      "car": "VELLFIRE",
+      "model": "ATH20W（HYBRID）",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "ANH20W": {
+      "car": null,
+      "model": "ANH20W",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": "90915-10004"
+    },
+    "ATH10W（HYBRID）": {
+      "car": null,
+      "model": "ATH10W（HYBRID）",
+      "oil_type": "5W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "ANH10W": {
+      "car": null,
+      "model": "ANH10W",
+      "oil_type": "5W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "AGH30W.AGH35W": {
+      "car": null,
+      "model": "AGH30W.AGH35W",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.4,
+      "part_number": null
+    },
+    "AYH30W（HYBRID）": {
+      "car": null,
+      "model": "AYH30W（HYBRID）",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.4,
+      "part_number": null
+    },
+    "MNH10W": {
+      "car": null,
+      "model": "MNH10W",
+      "oil_type": "5W-20",
+      "oil": 4.5,
+      "filter_oil": 4.7,
+      "part_number": "90915-20003"
+    },
+    "GGH30W.GGH35W": {
+      "car": null,
+      "model": "GGH30W.GGH35W",
+      "oil_type": "0W-20",
+      "oil": 5.7,
+      "filter_oil": 6.1,
+      "part_number": null
+    },
+    "GGH20W.GGH25W": {
+      "car": null,
+      "model": "GGH20W.GGH25W",
+      "oil_type": "5W-20",
+      "oil": 5.7,
+      "filter_oil": 6.1,
+      "part_number": null
+    },
+    "NCP60": {
+      "car": "IST",
+      "model": "NCP60",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "NCP110.NCP115": {
+      "car": null,
+      "model": "NCP110.NCP115",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "NCP61.NCP65": {
+      "car": null,
+      "model": "NCP61.NCP65",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "ZSP110": {
+      "car": null,
+      "model": "ZSP110",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ACA33W.ACA38W": {
+      "car": "VANGUARD",
+      "model": "ACA33W.ACA38W",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "GSA33W": {
+      "car": null,
+      "model": "GSA33W",
+      "oil_type": "5W-20",
+      "oil": 5.7,
+      "filter_oil": 6.1,
+      "part_number": null
+    },
+    "ZGE20G.ZGE20W\nZGE25G.ZGE25W": {
+      "car": null,
+      "model": "ZGE20G.ZGE20W\nZGE25G.ZGE25W",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ZNE10G.ZNE14G": {
+      "car": "WISH",
+      "model": "ZNE10G.ZNE14G",
+      "oil_type": "5W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "ZGE22W": {
+      "car": null,
+      "model": "ZGE22W",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": "90915-10003"
+    },
+    "ZGE21G.ZGE22W": {
+      "car": null,
+      "model": "ZGE21G.ZGE22W",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ANE10G.ANE11W": {
+      "car": null,
+      "model": "ANE10G.ANE11W",
+      "oil_type": "5W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "SCP10": {
+      "car": "VITZ",
+      "model": "SCP10",
+      "oil_type": "5W-20",
+      "oil": 2.9,
+      "filter_oil": 3.2,
+      "part_number": "90915-10001"
+    },
+    "KSP130": {
+      "car": null,
+      "model": "KSP130",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "KSP90": {
+      "car": null,
+      "model": "KSP90",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.2,
+      "part_number": null
+    },
+    "NCP10.NCP15": {
+      "car": null,
+      "model": "NCP10.NCP15",
+      "oil_type": "5W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "NSP130": {
+      "car": null,
+      "model": "NSP130",
+      "oil_type": "0W-16",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "NSP130.NSP135": {
+      "car": null,
+      "model": "NSP130.NSP135",
+      "oil_type": "0W-20",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "NCP95": {
+      "car": null,
+      "model": "NCP95",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.2,
+      "part_number": "90915-10003"
+    },
+    "SCP90": {
+      "car": null,
+      "model": "SCP90",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.2,
+      "part_number": "90915-10003"
+    },
+    "SCP13（CVT）": {
+      "car": null,
+      "model": "SCP13（CVT）",
+      "oil_type": "5W-20",
+      "oil": 3.1,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "NHP130": {
+      "car": null,
+      "model": "NHP130",
+      "oil_type": "0W-16",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "NCP131": {
+      "car": null,
+      "model": "NCP131",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "NCP91": {
+      "car": null,
+      "model": "NCP91",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "NCP13": {
+      "car": null,
+      "model": "NCP13",
+      "oil_type": "5W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "GX110.GX115": {
+      "car": "VEROSSA",
+      "model": "GX110.GX115",
+      "oil_type": "5W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "JZX110": {
+      "car": null,
+      "model": "JZX110",
+      "oil_type": "10W-30",
+      "oil": 5.1,
+      "filter_oil": 5.4,
+      "part_number": "90915-20003"
+    },
+    "ANH20W.ANH25W": {
+      "car": null,
+      "model": "ANH20W.ANH25W",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "ZWR80G.ZWR80W": {
+      "car": "NOAH",
+      "model": "ZWR80G.ZWR80W",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ZWR80G": {
+      "car": null,
+      "model": "ZWR80G",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": "90915-10003"
+    },
+    "ZRR80G.ZRR80W\nZRR85G.ZRR85W": {
+      "car": null,
+      "model": "ZRR80G.ZRR80W\nZRR85G.ZRR85W",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ZRR70G.ZRR70W\nZRR75G.ZRR75W": {
+      "car": null,
+      "model": "ZRR70G.ZRR70W\nZRR75G.ZRR75W",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ZRR70W.ZRR75W": {
+      "car": null,
+      "model": "ZRR70W.ZRR75W",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "AZR60G.AZR65G": {
+      "car": null,
+      "model": "AZR60G.AZR65G",
+      "oil_type": "5W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ZRR80G.ZRR85G": {
+      "car": null,
+      "model": "ZRR80G.ZRR85G",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "AHR20W（HYBRID）": {
+      "car": "ESTIMA",
+      "model": "AHR20W（HYBRID）",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "ACR50W.ACR55W": {
+      "car": null,
+      "model": "ACR50W.ACR55W",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "AHR10W（HYBRID）": {
+      "car": null,
+      "model": "AHR10W（HYBRID）",
+      "oil_type": "5W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "ACR30W.ACR40W": {
+      "car": null,
+      "model": "ACR30W.ACR40W",
+      "oil_type": "5W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "MCR30W.MCR40W": {
+      "car": null,
+      "model": "MCR30W.MCR40W",
+      "oil_type": "5W-20",
+      "oil": 4.5,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "GSR50W.GSR55W": {
+      "car": null,
+      "model": "GSR50W.GSR55W",
+      "oil_type": "5W-20",
+      "oil": 5.7,
+      "filter_oil": 6.1,
+      "part_number": null
+    },
+    "NRE185H": {
+      "car": "AURIS",
+      "model": "NRE185H",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 4.0,
+      "part_number": "90915-10003"
+    },
+    "NZE181H.NZE184H": {
+      "car": null,
+      "model": "NZE181H.NZE184H",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "NZE151H.NZE154H": {
+      "car": null,
+      "model": "NZE151H.NZE154H",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "ZRE186H": {
+      "car": null,
+      "model": "ZRE186H",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": "90915-10003"
+    },
+    "ZWE186H": {
+      "car": null,
+      "model": "ZWE186H",
+      "oil_type": "0W-16",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ZRE152H.ZRE154H": {
+      "car": null,
+      "model": "ZRE152H.ZRE154H",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ACV40.ACV45": {
+      "car": "CAMRY",
+      "model": "ACV40.ACV45",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "ACV30.ACV35": {
+      "car": null,
+      "model": "ACV30.ACV35",
+      "oil_type": "5W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "AXVH70": {
+      "car": null,
+      "model": "AXVH70",
+      "oil_type": "0W-16",
+      "oil": 4.2,
+      "filter_oil": 4.5,
+      "part_number": "90915-10009"
+    },
+    "AVV50": {
+      "car": null,
+      "model": "AVV50",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.4,
+      "part_number": null
+    },
+    "NRE210": {
+      "car": "COROLLA",
+      "model": "NRE210",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 4.0,
+      "part_number": "90915-10003"
+    },
+    "ZRE212": {
+      "car": null,
+      "model": "ZRE212",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": "90915-10003"
+    },
+    "ZWE211,ZWE214": {
+      "car": null,
+      "model": "ZWE211,ZWE214",
+      "oil_type": "0W-16",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "NRE160": {
+      "car": "COROLLA AXIO",
+      "model": "NRE160",
+      "oil_type": "0W-20",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "NRE161": {
+      "car": null,
+      "model": "NRE161",
+      "oil_type": "0W-16",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "NKE165": {
+      "car": null,
+      "model": "NKE165",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "NZE161.NZE164": {
+      "car": null,
+      "model": "NZE161.NZE164",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "NZE141.NZE144": {
+      "car": null,
+      "model": "NZE141.NZE144",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "ZRE142.ZRE144": {
+      "car": null,
+      "model": "ZRE142.ZRE144",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "NRE210H,NRE214H": {
+      "car": "COROLLA SPORT",
+      "model": "NRE210H,NRE214H",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 4.0,
+      "part_number": null
+    },
+    "ZWE211H.ZWE213H": {
+      "car": null,
+      "model": "ZWE211H.ZWE213H",
+      "oil_type": "0W-16",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "NRE210W": {
+      "car": "COROLLA TOURING",
+      "model": "NRE210W",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 4.0,
+      "part_number": "90915-10003"
+    },
+    "ZRE212W": {
+      "car": null,
+      "model": "ZRE212W",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": "90915-10003"
+    },
+    "ZWE211W,ZWE214W": {
+      "car": null,
+      "model": "ZWE211W,ZWE214W",
+      "oil_type": "0W-16",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "MZEA12W": {
+      "car": null,
+      "model": "MZEA12W",
+      "oil_type": "0W-16",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": "90915-10009"
+    },
+    "NRE161G": {
+      "car": "COROLLA FIELDER",
+      "model": "NRE161G",
+      "oil_type": "0W-16",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "NKE165G": {
+      "car": null,
+      "model": "NKE165G",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "NZE161G.NZE164G": {
+      "car": null,
+      "model": "NZE161G.NZE164G",
+      "oil_type": "0W-20",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "NZE141G.NZE144G": {
+      "car": null,
+      "model": "NZE141G.NZE144G",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "NZE122G.NZE124G": {
+      "car": null,
+      "model": "NZE122G.NZE124G",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "ZRE162G": {
+      "car": null,
+      "model": "ZRE162G",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": "90915-10003"
+    },
+    "ZRE142G.ZRE144G": {
+      "car": null,
+      "model": "ZRE142G.ZRE144G",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ZZE122G.ZZE124G": {
+      "car": null,
+      "model": "ZZE122G.ZZE124G",
+      "oil_type": "5W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "ZZE123G": {
+      "car": null,
+      "model": "ZZE123G",
+      "oil_type": "5W-30",
+      "oil": 4.2,
+      "filter_oil": 4.4,
+      "part_number": "90915-10004"
+    },
+    "NZE151N": {
+      "car": "COROLLA RUMION",
+      "model": "NZE151N",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "ZRE152N.ZRE154N": {
+      "car": null,
+      "model": "ZRE152N.ZRE154N",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ARS220": {
+      "car": "CROWN",
+      "model": "ARS220",
+      "oil_type": "0W-20",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": null
+    },
+    "ARS210": {
+      "car": null,
+      "model": "ARS210",
+      "oil_type": "0W-20",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": null
+    },
+    "GS171.GS171W": {
+      "car": null,
+      "model": "GS171.GS171W",
+      "oil_type": "5W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "GS171W": {
+      "car": null,
+      "model": "GS171W",
+      "oil_type": "10W-30",
+      "oil": 3.9,
+      "filter_oil": 4.1,
+      "part_number": null
+    },
+    "JZS171.JZS173\nJZS171W.JZS173W": {
+      "car": null,
+      "model": "JZS171.JZS173\nJZS171W.JZS173W",
+      "oil_type": "5W-30",
+      "oil": 5.4,
+      "filter_oil": 5.7,
+      "part_number": null
+    },
+    "JZS171.JZS171W": {
+      "car": null,
+      "model": "JZS171.JZS171W",
+      "oil_type": "10W-30",
+      "oil": 5.1,
+      "filter_oil": 5.4,
+      "part_number": null
+    },
+    "AZSH20": {
+      "car": null,
+      "model": "AZSH20",
+      "oil_type": "0W-16",
+      "oil": 4.6,
+      "filter_oil": 5.0,
+      "part_number": "90915-10009"
+    },
+    "AZSH21": {
+      "car": null,
+      "model": "AZSH21",
+      "oil_type": "0W-16",
+      "oil": 4.5,
+      "filter_oil": 4.9,
+      "part_number": "90915-10009"
+    },
+    "GRS210.GRS211": {
+      "car": null,
+      "model": "GRS210.GRS211",
+      "oil_type": "0W-20",
+      "oil": 5.9,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "AWS210.AWS211": {
+      "car": null,
+      "model": "AWS210.AWS211",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.5,
+      "part_number": null
+    },
+    "GRS200.GRS201": {
+      "car": null,
+      "model": "GRS200.GRS201",
+      "oil_type": "0W-20",
+      "oil": 5.9,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "GRS180.GRS181": {
+      "car": null,
+      "model": "GRS180.GRS181",
+      "oil_type": "5W-20",
+      "oil": 5.9,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "JZS175.JZS175W": {
+      "car": null,
+      "model": "JZS175.JZS175W",
+      "oil_type": "5W-30",
+      "oil": 5.4,
+      "filter_oil": 5.7,
+      "part_number": null
+    },
+    "JZS179": {
+      "car": null,
+      "model": "JZS179",
+      "oil_type": "5W-30",
+      "oil": 4.5,
+      "filter_oil": 4.8,
+      "part_number": "90915-20003"
+    },
+    "GRS202.GRS203": {
+      "car": null,
+      "model": "GRS202.GRS203",
+      "oil_type": "0W-20",
+      "oil": 5.9,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "GRS182": {
+      "car": null,
+      "model": "GRS182",
+      "oil_type": "5W-20",
+      "oil": 5.9,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "GWS220": {
+      "car": null,
+      "model": "GWS220",
+      "oil_type": "0W-20",
+      "oil": 5.5,
+      "filter_oil": 5.7,
+      "part_number": null
+    },
+    "GRS214": {
+      "car": null,
+      "model": "GRS214",
+      "oil_type": "0W-20",
+      "oil": 5.9,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "GRS204": {
+      "car": null,
+      "model": "GRS204",
+      "oil_type": "0W-20",
+      "oil": 5.9,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "GRS184": {
+      "car": null,
+      "model": "GRS184",
+      "oil_type": "5W-20",
+      "oil": 5.9,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "AWS215": {
+      "car": "CROWN MAJESTA",
+      "model": "AWS215",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.5,
+      "part_number": null
+    },
+    "JZS177": {
+      "car": null,
+      "model": "JZS177",
+      "oil_type": "5W-30",
+      "oil": 5.4,
+      "filter_oil": 5.7,
+      "part_number": "90915-20003"
+    },
+    "GWS214": {
+      "car": null,
+      "model": "GWS214",
+      "oil_type": "0W-20",
+      "oil": 5.9,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "UZS171.UZS175": {
+      "car": null,
+      "model": "UZS171.UZS175",
+      "oil_type": "5W-30",
+      "oil": 5.3,
+      "filter_oil": 5.6,
+      "part_number": null
+    },
+    "UZS173": {
+      "car": null,
+      "model": "UZS173",
+      "oil_type": "5W-30",
+      "oil": 6.5,
+      "filter_oil": 6.8,
+      "part_number": "90915-20004"
+    },
+    "UZS186.UZS187": {
+      "car": null,
+      "model": "UZS186.UZS187",
+      "oil_type": "5W-20",
+      "oil": 4.5,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "ACU20W.ACU25W": {
+      "car": "KLUGER",
+      "model": "ACU20W.ACU25W",
+      "oil_type": "5W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "MCU20W.MCU25W": {
+      "car": null,
+      "model": "MCU20W.MCU25W",
+      "oil_type": "5W-20",
+      "oil": 4.5,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "MHU28W": {
+      "car": null,
+      "model": "MHU28W",
+      "oil_type": "5W-20",
+      "oil": 4.5,
+      "filter_oil": 4.7,
+      "part_number": "90915-20003"
+    },
+    "JZX100": {
+      "car": null,
+      "model": "JZX100",
+      "oil_type": "10W-30",
+      "oil": 5.1,
+      "filter_oil": 5.4,
+      "part_number": "90915-20003"
+    },
+    "JZX105": {
+      "car": null,
+      "model": "JZX105",
+      "oil_type": "5W-20",
+      "oil": 5.1,
+      "filter_oil": 5.4,
+      "part_number": "90915-20003"
+    },
+    "JZX90": {
+      "car": null,
+      "model": "JZX90",
+      "oil_type": "10W-30",
+      "oil": 5.1,
+      "filter_oil": 5.4,
+      "part_number": "90915-20001 90915-20003"
+    },
+    "JZX101": {
+      "car": null,
+      "model": "JZX101",
+      "oil_type": "5W-20",
+      "oil": 5.1,
+      "filter_oil": 5.4,
+      "part_number": "90915-20003"
+    },
+    "JZX91": {
+      "car": null,
+      "model": "JZX91",
+      "oil_type": "5W-30",
+      "oil": 5.1,
+      "filter_oil": 5.4,
+      "part_number": "90915-20001 90915-20003"
+    },
+    "GDH303H": {
+      "car": "GRANACE",
+      "model": "GDH303H",
+      "oil_type": "0W-30",
+      "oil": 6.6,
+      "filter_oil": 7.1,
+      "part_number": null
+    },
+    "LA400A": {
+      "car": "COPEN GR SPORT",
+      "model": "LA400A",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "15601-B2030"
+    },
+    "NHP160V": {
+      "car": null,
+      "model": "NHP160V",
+      "oil_type": "0W-16",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "NCP160V.NCP165V": {
+      "car": null,
+      "model": "NCP160V.NCP165V",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "NCP58G.NCP59G": {
+      "car": null,
+      "model": "NCP58G.NCP59G",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "NHP170G": {
+      "car": "SIENTA",
+      "model": "NHP170G",
+      "oil_type": "0W-16",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "NSP170G.NSP172G": {
+      "car": null,
+      "model": "NSP170G.NSP172G",
+      "oil_type": "0W-16",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "NCP175G": {
+      "car": null,
+      "model": "NCP175G",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "NCP81G": {
+      "car": null,
+      "model": "NCP81G",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "NCP85G": {
+      "car": null,
+      "model": "NCP85G",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "NTP10": {
+      "car": "JPN TAXI",
+      "model": "NTP10",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "JZA80": {
+      "car": null,
+      "model": "JZA80",
+      "oil_type": "10W-30",
+      "oil": 5.3,
+      "filter_oil": 5.6,
+      "part_number": "90915-20001 90915-20003"
+    },
+    "NSP140": {
+      "car": "PORTE",
+      "model": "NSP140",
+      "oil_type": "0W-20",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "NCP141": {
+      "car": null,
+      "model": "NCP141",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "NCP145": {
+      "car": null,
+      "model": "NCP145",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "ZZT231": {
+      "car": "CELICA",
+      "model": "ZZT231",
+      "oil_type": "5W-30",
+      "oil": 4.2,
+      "filter_oil": 4.4,
+      "part_number": "90915-10001 90915-10004"
+    },
+    "ZZT230": {
+      "car": null,
+      "model": "ZZT230",
+      "oil_type": "5W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "UCF20.UCF21": {
+      "car": "CELSIOR",
+      "model": "UCF20.UCF21",
+      "oil_type": "10W-30",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "UCF10.UCF11": {
+      "car": null,
+      "model": "UCF10.UCF11",
+      "oil_type": "10W-30",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "UCF30.UCF31": {
+      "car": null,
+      "model": "UCF30.UCF31",
+      "oil_type": "5W-20",
+      "oil": 4.5,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "UWG60": {
+      "car": "CENTURY",
+      "model": "UWG60",
+      "oil_type": "0W-20",
+      "oil": 8.8,
+      "filter_oil": 9.4,
+      "part_number": null
+    },
+    "GZG50": {
+      "car": null,
+      "model": "GZG50",
+      "oil_type": "0W-20",
+      "oil": 7.3,
+      "filter_oil": 8.4,
+      "part_number": null
+    },
+    "JZZ30": {
+      "car": "SOARER",
+      "model": "JZZ30",
+      "oil_type": "10W-30",
+      "oil": 4.6,
+      "filter_oil": 4.9,
+      "part_number": "90915-20001 90915-20003"
+    },
+    "JZZ31": {
+      "car": null,
+      "model": "JZZ31",
+      "oil_type": "5W-30",
+      "oil": 4.9,
+      "filter_oil": 5.2,
+      "part_number": "90915-20001 90915-20003"
+    },
+    "UZZ30.UZZ31.UZZ32": {
+      "car": null,
+      "model": "UZZ30.UZZ31.UZZ32",
+      "oil_type": "5W-30",
+      "oil": 4.5,
+      "filter_oil": 4.8,
+      "part_number": null
+    },
+    "UZZ40": {
+      "car": null,
+      "model": "UZZ40",
+      "oil_type": "5W-20",
+      "oil": 4.5,
+      "filter_oil": 5.1,
+      "part_number": "90915-20004-79"
+    },
+    "M900A.M910A": {
+      "car": "ROOMY",
+      "model": "M900A.M910A",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "M900A": {
+      "car": null,
+      "model": "M900A",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": "15601-B2030"
+    },
+    "TRH200V.TRH200K.TRH201K": {
+      "car": null,
+      "model": "TRH200V.TRH200K.TRH201K",
+      "oil_type": "5W-20",
+      "oil": 5,
+      "filter_oil": 5.5,
+      "part_number": null
+    },
+    "KDH200K.KDH200V": {
+      "car": null,
+      "model": "KDH200K.KDH200V",
+      "oil_type": "10W-30",
+      "oil": 6.3,
+      "filter_oil": 6.5,
+      "part_number": null
+    },
+    "KDH205V.KDH220K.KDH225K": {
+      "car": null,
+      "model": "KDH205V.KDH220K.KDH225K",
+      "oil_type": "10W-30",
+      "oil": 6.3,
+      "filter_oil": 6.5,
+      "part_number": null
+    },
+    "TRH221K.TRH226K": {
+      "car": null,
+      "model": "TRH221K.TRH226K",
+      "oil_type": "5W-20",
+      "oil": 5,
+      "filter_oil": 5.5,
+      "part_number": null
+    },
+    "TRH214W.TRH224W\nTRH219W.TRH229W": {
+      "car": null,
+      "model": "TRH214W.TRH224W\nTRH219W.TRH229W",
+      "oil_type": "5W-20",
+      "oil": 5,
+      "filter_oil": 5.5,
+      "part_number": null
+    },
+    "TRH223B.TRH228B": {
+      "car": null,
+      "model": "TRH223B.TRH228B",
+      "oil_type": "5W-20",
+      "oil": 5,
+      "filter_oil": 5.5,
+      "part_number": null
+    },
+    "GDH201V.GDH201K": {
+      "car": null,
+      "model": "GDH201V.GDH201K",
+      "oil_type": "0W-30",
+      "oil": 5.5,
+      "filter_oil": 6.1,
+      "part_number": null
+    },
+    "GDH206V.GDH206K": {
+      "car": null,
+      "model": "GDH206V.GDH206K",
+      "oil_type": "0W-30",
+      "oil": 5.5,
+      "filter_oil": 6.1,
+      "part_number": null
+    },
+    "GDH211K.GDH216K": {
+      "car": null,
+      "model": "GDH211K.GDH216K",
+      "oil_type": "0W-30",
+      "oil": 5.5,
+      "filter_oil": 6.1,
+      "part_number": null
+    },
+    "GDH221K.GDH226K": {
+      "car": null,
+      "model": "GDH221K.GDH226K",
+      "oil_type": "0W-30",
+      "oil": 5.5,
+      "filter_oil": 6.1,
+      "part_number": null
+    },
+    "GDH223B": {
+      "car": null,
+      "model": "GDH223B",
+      "oil_type": "0W-30",
+      "oil": 5.5,
+      "filter_oil": 6.1,
+      "part_number": null
+    },
+    "KDH201K/V": {
+      "car": null,
+      "model": "KDH201K/V",
+      "oil_type": "5W-30",
+      "oil": 5,
+      "filter_oil": 5.2,
+      "part_number": null
+    },
+    "KDH206K/V": {
+      "car": null,
+      "model": "KDH206K/V",
+      "oil_type": "5W-30",
+      "oil": 5.5,
+      "filter_oil": 5.7,
+      "part_number": null
+    },
+    "KDH211K": {
+      "car": null,
+      "model": "KDH211K",
+      "oil_type": "5W-30",
+      "oil": 5,
+      "filter_oil": 5.2,
+      "part_number": null
+    },
+    "KDH221K": {
+      "car": null,
+      "model": "KDH221K",
+      "oil_type": "5W-30",
+      "oil": 5,
+      "filter_oil": 5.2,
+      "part_number": null
+    },
+    "GUN125": {
+      "car": "HILUX",
+      "model": "GUN125",
+      "oil_type": "0W-30",
+      "oil": 7,
+      "filter_oil": 7.5,
+      "part_number": null
+    },
+    "TRN210W.TRN215W": {
+      "car": "HILUX SURF",
+      "model": "TRN210W.TRN215W",
+      "oil_type": "5W-20",
+      "oil": 5,
+      "filter_oil": 5.7,
+      "part_number": null
+    },
+    "RZN210W.RZN215W": {
+      "car": null,
+      "model": "RZN210W.RZN215W",
+      "oil_type": "5W-20",
+      "oil": 4.4,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "KDN215W": {
+      "car": null,
+      "model": "KDN215W",
+      "oil_type": "10W-30",
+      "oil": 6.7,
+      "filter_oil": 7.4,
+      "part_number": null
+    },
+    "VZN210W.VZN215W": {
+      "car": null,
+      "model": "VZN210W.VZN215W",
+      "oil_type": "5W-20",
+      "oil": 5.1,
+      "filter_oil": 5.4,
+      "part_number": null
+    },
+    "GRN215W": {
+      "car": null,
+      "model": "GRN215W",
+      "oil_type": "5W-20",
+      "oil": 4.9,
+      "filter_oil": 5.2,
+      "part_number": "90915-20004"
+    },
+    "MXUA80,MXUA85": {
+      "car": "HARRIER",
+      "model": "MXUA80,MXUA85",
+      "oil_type": "0W-16",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "ASU60W.ASU65W": {
+      "car": null,
+      "model": "ASU60W.ASU65W",
+      "oil_type": "0W-20",
+      "oil": 4.7,
+      "filter_oil": 4.9,
+      "part_number": null
+    },
+    "ZSU60W.ZSU65W": {
+      "car": null,
+      "model": "ZSU60W.ZSU65W",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ACU30W.ACU35W": {
+      "car": null,
+      "model": "ACU30W.ACU35W",
+      "oil_type": "5W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "AXUH80,AXUH85": {
+      "car": null,
+      "model": "AXUH80,AXUH85",
+      "oil_type": "0W-16",
+      "oil": 4.2,
+      "filter_oil": 4.5,
+      "part_number": null
+    },
+    "AVU65W": {
+      "car": null,
+      "model": "AVU65W",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.4,
+      "part_number": null
+    },
+    "MCU30W.MCU31W\nMCU35W.MCU36W": {
+      "car": null,
+      "model": "MCU30W.MCU31W\nMCU35W.MCU36W",
+      "oil_type": "5W-20",
+      "oil": 4.5,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "MHU38W": {
+      "car": null,
+      "model": "MHU38W",
+      "oil_type": "5W-20",
+      "oil": 4.5,
+      "filter_oil": 4.7,
+      "part_number": "90915-20003"
+    },
+    "GSU31W.GSU35W": {
+      "car": null,
+      "model": "GSU31W.GSU35W",
+      "oil_type": "5W-20",
+      "oil": 5.7,
+      "filter_oil": 6.1,
+      "part_number": null
+    },
+    "M700A.M710A": {
+      "car": "PASSO",
+      "model": "M700A.M710A",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "KGC30.KGC35": {
+      "car": null,
+      "model": "KGC30.KGC35",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "KGC10.KGC15": {
+      "car": null,
+      "model": "KGC10.KGC15",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "NGC30": {
+      "car": null,
+      "model": "NGC30",
+      "oil_type": "0W-20",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "QNC10": {
+      "car": null,
+      "model": "QNC10",
+      "oil_type": "5W-20",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "M502E.M512E": {
+      "car": "PASSO SETTE",
+      "model": "M502E.M512E",
+      "oil_type": "0W-20",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "LA350A.LA360A": {
+      "car": "PIXIS EPOCH",
+      "model": "LA350A.LA360A",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "LA300A.LA310A": {
+      "car": null,
+      "model": "LA300A.LA310A",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "LA250A.LA260A": {
+      "car": null,
+      "model": "LA250A.LA260A",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "L575A.L585A": {
+      "car": null,
+      "model": "L575A.L585A",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "S500U.S510U": {
+      "car": "PIXIS TRUCK",
+      "model": "S500U.S510U",
+      "oil_type": "5W-30",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "S201U,S211U": {
+      "car": null,
+      "model": "S201U,S211U",
+      "oil_type": "5W-30",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "S321M.S331M": {
+      "car": "PIXIS VAN",
+      "model": "S321M.S331M",
+      "oil_type": "5W-30",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "LA700A.LA710A": {
+      "car": null,
+      "model": "LA700A.LA710A",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "NHW20": {
+      "car": "PRIUS",
+      "model": "NHW20",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "ZVW50": {
+      "car": null,
+      "model": "ZVW50",
+      "oil_type": "0W-16",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": "90915-10003"
+    },
+    "ZVW51": {
+      "car": null,
+      "model": "ZVW51",
+      "oil_type": "0W-16",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": "90915-10003"
+    },
+    "ZVW55": {
+      "car": null,
+      "model": "ZVW55",
+      "oil_type": "0W-16",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": "90915-10003"
+    },
+    "ZVW30": {
+      "car": null,
+      "model": "ZVW30",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ZVW40W.ZVW41W": {
+      "car": null,
+      "model": "ZVW40W.ZVW41W",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ZVW52": {
+      "car": null,
+      "model": "ZVW52",
+      "oil_type": "0W-16",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": "90915-10003"
+    },
+    "ZVW35": {
+      "car": null,
+      "model": "ZVW35",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "AZE154H,AZE156H": {
+      "car": "BLADE",
+      "model": "AZE154H,AZE156H",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "GRE156H": {
+      "car": "BLADE MASTER",
+      "model": "GRE156H",
+      "oil_type": "5W-20",
+      "oil": 5.7,
+      "filter_oil": 6.1,
+      "part_number": null
+    },
+    "JCG10": {
+      "car": "BREVIS",
+      "model": "JCG10",
+      "oil_type": "5W-20",
+      "oil": 5.1,
+      "filter_oil": 5.4,
+      "part_number": "90915-20003"
+    },
+    "JCG15": {
+      "car": null,
+      "model": "JCG15",
+      "oil_type": "5W-20",
+      "oil": 4.2,
+      "filter_oil": 4.5,
+      "part_number": "90915-20003"
+    },
+    "JCG11": {
+      "car": null,
+      "model": "JCG11",
+      "oil_type": "5W-20",
+      "oil": 5.1,
+      "filter_oil": 5.4,
+      "part_number": "90915-20003"
+    },
+    "NSP160V": {
+      "car": "PROBOX",
+      "model": "NSP160V",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "NCP50V": {
+      "car": null,
+      "model": "NCP50V",
+      "oil_type": "5W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "NLP51V": {
+      "car": null,
+      "model": "NLP51V",
+      "oil_type": "10W-30",
+      "oil": 3.8,
+      "filter_oil": 4.2,
+      "part_number": "90915-20003"
+    },
+    "NCP51V.NCP55V": {
+      "car": null,
+      "model": "NCP51V.NCP55V",
+      "oil_type": "5W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "NNP10": {
+      "car": null,
+      "model": "NNP10",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "NNP11.NNP15": {
+      "car": null,
+      "model": "NNP11.NNP15",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "GX110W": {
+      "car": "MARKⅡ BLIT",
+      "model": "GX110W",
+      "oil_type": "5W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "GX115W": {
+      "car": null,
+      "model": "GX115W",
+      "oil_type": "5W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "JZX115W": {
+      "car": null,
+      "model": "JZX115W",
+      "oil_type": "5W-20",
+      "oil": 4.2,
+      "filter_oil": 4.5,
+      "part_number": "90915-20003"
+    },
+    "JZX110W": {
+      "car": null,
+      "model": "JZX110W",
+      "oil_type": "10W-30",
+      "oil": 5.1,
+      "filter_oil": 5.4,
+      "part_number": "90915-20003"
+    },
+    "GRX130": {
+      "car": "MARK X",
+      "model": "GRX130",
+      "oil_type": "5W-20",
+      "oil": 5.9,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "GRX135": {
+      "car": null,
+      "model": "GRX135",
+      "oil_type": "5W-20",
+      "oil": 6,
+      "filter_oil": 6.4,
+      "part_number": null
+    },
+    "GRX120": {
+      "car": null,
+      "model": "GRX120",
+      "oil_type": "5W-20",
+      "oil": 5.9,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "GRX125": {
+      "car": null,
+      "model": "GRX125",
+      "oil_type": "5W-20",
+      "oil": 6,
+      "filter_oil": 6.4,
+      "part_number": null
+    },
+    "GRX121": {
+      "car": null,
+      "model": "GRX121",
+      "oil_type": "5W-20",
+      "oil": 5.9,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "GRX133": {
+      "car": null,
+      "model": "GRX133",
+      "oil_type": "5W-20",
+      "oil": 5.9,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "ANA10.ANA15": {
+      "car": "MARK X ZIO",
+      "model": "ANA10.ANA15",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "GGA10": {
+      "car": null,
+      "model": "GGA10",
+      "oil_type": "5W-20",
+      "oil": 5.7,
+      "filter_oil": 6.1,
+      "part_number": null
+    },
+    "KSP210": {
+      "car": "YARIS",
+      "model": "KSP210",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": null
+    },
+    "MXPA10.MXPA15": {
+      "car": null,
+      "model": "MXPA10.MXPA15",
+      "oil_type": "0W-16",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "MXPH10.MXPH15": {
+      "car": null,
+      "model": "MXPH10.MXPH15",
+      "oil_type": "0W-8",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "MXPB10.MXPB15": {
+      "car": "YARIS CROSS",
+      "model": "MXPB10.MXPB15",
+      "oil_type": "0W-16",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "MXPJ10.MXPJ15": {
+      "car": null,
+      "model": "MXPJ10.MXPJ15",
+      "oil_type": "0W-8",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "A200A.A210A": {
+      "car": "RAIZE",
+      "model": "A200A.A210A",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "NSP120.NSP122": {
+      "car": null,
+      "model": "NSP120.NSP122",
+      "oil_type": "0W-20",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "SCP100": {
+      "car": null,
+      "model": "SCP100",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.2,
+      "part_number": "90915-10003"
+    },
+    "NCP120.NCP125": {
+      "car": null,
+      "model": "NCP120.NCP125",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "NCP100": {
+      "car": null,
+      "model": "NCP100",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "NCP105": {
+      "car": null,
+      "model": "NCP105",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": "90915-10003"
+    },
+    "HDJ101K": {
+      "car": "LANDCRUISER100",
+      "model": "HDJ101K",
+      "oil_type": "10W-30",
+      "oil": 10.1,
+      "filter_oil": 11.4,
+      "part_number": null
+    },
+    "UZJ100W": {
+      "car": null,
+      "model": "UZJ100W",
+      "oil_type": "5W-20",
+      "oil": 6.4,
+      "filter_oil": 6.8,
+      "part_number": "90915-20004"
+    },
+    "URJ202W": {
+      "car": "LANDCRUISER200",
+      "model": "URJ202W",
+      "oil_type": "0W-20",
+      "oil": 7.1,
+      "filter_oil": 7.5,
+      "part_number": null
+    },
+    "UZJ200W": {
+      "car": null,
+      "model": "UZJ200W",
+      "oil_type": "5W-20",
+      "oil": 5.7,
+      "filter_oil": 6.2,
+      "part_number": "90915-20004"
+    },
+    "GRJ76K.GRJ79K": {
+      "car": "LANDCRUISER70",
+      "model": "GRJ76K.GRJ79K",
+      "oil_type": "10W-30",
+      "oil": 5.1,
+      "filter_oil": 5.4,
+      "part_number": null
+    },
+    "TRJ120W.TRJ125W": {
+      "car": "LANDCURISER PRADO",
+      "model": "TRJ120W.TRJ125W",
+      "oil_type": "5W-20",
+      "oil": 5,
+      "filter_oil": 5.7,
+      "part_number": null
+    },
+    "GDJ150W.GDJ151W": {
+      "car": null,
+      "model": "GDJ150W.GDJ151W",
+      "oil_type": "0W-30",
+      "oil": 7.2,
+      "filter_oil": 7.7,
+      "part_number": null
+    },
+    "KDJ120W": {
+      "car": null,
+      "model": "KDJ120W",
+      "oil_type": "10W-30",
+      "oil": 6.7,
+      "filter_oil": 7.4,
+      "part_number": null
+    },
+    "KDJ121W.KDJ125W": {
+      "car": null,
+      "model": "KDJ121W.KDJ125W",
+      "oil_type": "10W-30",
+      "oil": 6.7,
+      "filter_oil": 7.4,
+      "part_number": null
+    },
+    "VZJ120W.VZJ125W": {
+      "car": null,
+      "model": "VZJ120W.VZJ125W",
+      "oil_type": "5W-20",
+      "oil": 5.1,
+      "filter_oil": 5.4,
+      "part_number": null
+    },
+    "GRJ120W.GRJ121W": {
+      "car": null,
+      "model": "GRJ120W.GRJ121W",
+      "oil_type": "5W-20",
+      "oil": 4.9,
+      "filter_oil": 5.2,
+      "part_number": null
+    },
+    "KDH201K.KDH201V": {
+      "car": null,
+      "model": "KDH201K.KDH201V",
+      "oil_type": "5W-30",
+      "oil": 5,
+      "filter_oil": 5.2,
+      "part_number": null
+    },
+    "KDH206K.KDH206V": {
+      "car": null,
+      "model": "KDH206K.KDH206V",
+      "oil_type": "5W-30",
+      "oil": 5.5,
+      "filter_oil": 5.7,
+      "part_number": null
+    },
+    "RS13.KRS13": {
+      "car": "180SX",
+      "model": "RS13.KRS13",
+      "oil_type": "7.5W-30",
+      "oil": 3.2,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "RPS13.KRPS13": {
+      "car": null,
+      "model": "RPS13.KRPS13",
+      "oil_type": "7.5W-30",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "VY12": {
+      "car": "NV150 AD",
+      "model": "VY12",
+      "oil_type": "0W-20",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "AY100-NS004"
+    },
+    "VZNY12": {
+      "car": null,
+      "model": "VZNY12",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "AY100-NS004"
+    },
+    "VJY12": {
+      "car": null,
+      "model": "VJY12",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": "AY100-NS004"
+    },
+    "R35": {
+      "car": null,
+      "model": "R35",
+      "oil_type": "0W-40",
+      "oil": 5,
+      "filter_oil": 5.5,
+      "part_number": "AY100-NS006"
+    },
+    "DR16T": {
+      "car": "NT100 CLIPPER",
+      "model": "DR16T",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "15208-4A0A0"
+    },
+    "DR17V": {
+      "car": null,
+      "model": "DR17V",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.8,
+      "part_number": "15208-4A00C"
+    },
+    "DR64V": {
+      "car": null,
+      "model": "DR64V",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "15208-4A0A1"
+    },
+    "U71V": {
+      "car": null,
+      "model": "U71V",
+      "oil_type": "10W-30",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "AY100-NS035"
+    },
+    "U71TP": {
+      "car": null,
+      "model": "U71TP",
+      "oil_type": "10W-30",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": null
+    },
+    "U72V": {
+      "car": null,
+      "model": "U72V",
+      "oil_type": "10W-30",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "AY100-NS035"
+    },
+    "DR17W": {
+      "car": "NV100 CLIPPER RIO",
+      "model": "DR17W",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.8,
+      "part_number": "15208-4A00C"
+    },
+    "DR64W": {
+      "car": null,
+      "model": "DR64W",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "15208-4A0A1"
+    },
+    "VM20": {
+      "car": "NV200 VANETTE VAN",
+      "model": "VM20",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "AY100-NS004"
+    },
+    "M20": {
+      "car": "NV200 VANETTE WAGON",
+      "model": "M20",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "AY100-NS004"
+    },
+    "VR2E26": {
+      "car": "NV350 CARAVAN",
+      "model": "VR2E26",
+      "oil_type": "0W-20",
+      "oil": 4.9,
+      "filter_oil": 5.2,
+      "part_number": "AY100-NS004"
+    },
+    "CS4E26.DS4E26\nKS2E26.KS4E26": {
+      "car": null,
+      "model": "CS4E26.DS4E26\nKS2E26.KS4E26",
+      "oil_type": "0W-20",
+      "oil": 4.9,
+      "filter_oil": 5.2,
+      "part_number": null
+    },
+    "CW4E26.CW8E26.DW4E26\nVW2E26.VW6E26": {
+      "car": null,
+      "model": "CW4E26.CW8E26.DW4E26\nVW2E26.VW6E26",
+      "oil_type": "5W-30",
+      "oil": 7.5,
+      "filter_oil": 7.8,
+      "part_number": null
+    },
+    "HT32.HNT32": {
+      "car": "X-TRAIL",
+      "model": "HT32.HNT32",
+      "oil_type": "0W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "T32.NT32": {
+      "car": null,
+      "model": "T32.NT32",
+      "oil_type": "0W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "DNT31": {
+      "car": null,
+      "model": "DNT31",
+      "oil_type": "5W-30",
+      "oil": 7,
+      "filter_oil": 7.4,
+      "part_number": null
+    },
+    "T31.NT31": {
+      "car": null,
+      "model": "T31.NT31",
+      "oil_type": "0W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "PNT30": {
+      "car": null,
+      "model": "PNT30",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "AY100-NS004"
+    },
+    "T30.NT30": {
+      "car": null,
+      "model": "T30.NT30",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "TNT31": {
+      "car": null,
+      "model": "TNT31",
+      "oil_type": "0W-20",
+      "oil": 4.5,
+      "filter_oil": 4.8,
+      "part_number": null
+    },
+    "Y12": {
+      "car": null,
+      "model": "Y12",
+      "oil_type": "0W-20",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "AY100-NS004"
+    },
+    "NY12": {
+      "car": null,
+      "model": "NY12",
+      "oil_type": "0W-20",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "AY100-NS004"
+    },
+    "WFY11": {
+      "car": null,
+      "model": "WFY11",
+      "oil_type": "0W-20",
+      "oil": 2.5,
+      "filter_oil": 2.7,
+      "part_number": "AY100-NS004"
+    },
+    "JY12": {
+      "car": null,
+      "model": "JY12",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": "AY100-NS004"
+    },
+    "WHNY11": {
+      "car": null,
+      "model": "WHNY11",
+      "oil_type": "0W-20",
+      "oil": 2.5,
+      "filter_oil": 2.7,
+      "part_number": "AY100-NS004"
+    },
+    "WRY11": {
+      "car": null,
+      "model": "WRY11",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": "AY100-NS004"
+    },
+    "TE52.TNE52": {
+      "car": "ELGLAND",
+      "model": "TE52.TNE52",
+      "oil_type": "0W-20",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": null
+    },
+    "ME51.MNE51": {
+      "car": null,
+      "model": "ME51.MNE51",
+      "oil_type": "5W-30",
+      "oil": 4.5,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "PE52.PNE52": {
+      "car": null,
+      "model": "PE52.PNE52",
+      "oil_type": "5W-30",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": null
+    },
+    "E51": {
+      "car": null,
+      "model": "E51",
+      "oil_type": "5W-30",
+      "oil": 4.5,
+      "filter_oil": 4.7,
+      "part_number": "AY100-NS004"
+    },
+    "APE50.APWE50": {
+      "car": null,
+      "model": "APE50.APWE50",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "H92W": {
+      "car": null,
+      "model": "H92W",
+      "oil_type": "10W-30",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "AY100-NS035"
+    },
+    "H91W": {
+      "car": null,
+      "model": "H91W",
+      "oil_type": "10W-30",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "AY100-NS035"
+    },
+    "H59A": {
+      "car": "KICKS",
+      "model": "H59A",
+      "oil_type": "10W-30",
+      "oil": 3.3,
+      "filter_oil": 3.5,
+      "part_number": "AY100-NS035"
+    },
+    "P15": {
+      "car": null,
+      "model": "P15",
+      "oil_type": "0W-20",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": "AY100-NS004"
+    },
+    "VRE25": {
+      "car": "CARAVAN",
+      "model": "VRE25",
+      "oil_type": "0W-20",
+      "oil": 4.9,
+      "filter_oil": 5.2,
+      "part_number": null
+    },
+    "VPE25": {
+      "car": null,
+      "model": "VPE25",
+      "oil_type": "5W-30",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": "AY100-NS006"
+    },
+    "QGE25.CQGE25.DQGE25.QE25": {
+      "car": null,
+      "model": "QGE25.CQGE25.DQGE25.QE25",
+      "oil_type": "5W-30",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "CWGE25.CWMGE25.VWE25.\nVWME25": {
+      "car": null,
+      "model": "CWGE25.CWMGE25.VWE25.\nVWME25",
+      "oil_type": "10W-30",
+      "oil": 6.4,
+      "filter_oil": 6.9,
+      "part_number": null
+    },
+    "BZ11.BNZ11": {
+      "car": "CUBE",
+      "model": "BZ11.BNZ11",
+      "oil_type": "0W-20",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "Z12.NZ12": {
+      "car": null,
+      "model": "Z12.NZ12",
+      "oil_type": "0W-20",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "YZ11": {
+      "car": null,
+      "model": "YZ11",
+      "oil_type": "0W-20",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "AY100-NS004"
+    },
+    "YGZ11.YGNZ11": {
+      "car": "CUBE 3",
+      "model": "YGZ11.YGNZ11",
+      "oil_type": "0W-20",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "Y33": {
+      "car": "CEDRIC",
+      "model": "Y33",
+      "oil_type": "7.5W-30",
+      "oil": 3.5,
+      "filter_oil": 3.9,
+      "part_number": "AY100-NS007"
+    },
+    "ENY34": {
+      "car": null,
+      "model": "ENY34",
+      "oil_type": "5W-30",
+      "oil": 4.3,
+      "filter_oil": 4.7,
+      "part_number": "AY100-NS005"
+    },
+    "MY34": {
+      "car": null,
+      "model": "MY34",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": "AY100-NS006"
+    },
+    "MY33": {
+      "car": null,
+      "model": "MY33",
+      "oil_type": "7.5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": "AY100-NS006"
+    },
+    "ENY33": {
+      "car": null,
+      "model": "ENY33",
+      "oil_type": "7.5W-30",
+      "oil": 4.3,
+      "filter_oil": 4.7,
+      "part_number": "AY100-NS007"
+    },
+    "UY33": {
+      "car": null,
+      "model": "UY33",
+      "oil_type": "10W-30",
+      "oil": 5.6,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "HY34": {
+      "car": null,
+      "model": "HY34",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": "AY100-NS006"
+    },
+    "PY33": {
+      "car": null,
+      "model": "PY33",
+      "oil_type": "7.5W-30",
+      "oil": 3.5,
+      "filter_oil": 3.9,
+      "part_number": "AY100-NS007"
+    },
+    "HY33": {
+      "car": null,
+      "model": "HY33",
+      "oil_type": "7.5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": "AY100-NS006"
+    },
+    "HY33.HBY33": {
+      "car": null,
+      "model": "HY33.HBY33",
+      "oil_type": "7.5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "HF50": {
+      "car": "CIMA",
+      "model": "HF50",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "GF50": {
+      "car": null,
+      "model": "GF50",
+      "oil_type": "0W-20",
+      "oil": 5,
+      "filter_oil": 5.6,
+      "part_number": "AY100-NS006"
+    },
+    "GNF50": {
+      "car": null,
+      "model": "GNF50",
+      "oil_type": "0W-20",
+      "oil": 6,
+      "filter_oil": 6.6,
+      "part_number": "AY100-NS006"
+    },
+    "HGY51": {
+      "car": "CIMA HYBRID",
+      "model": "HGY51",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.9,
+      "part_number": null
+    },
+    "YF15": {
+      "car": "JUKE",
+      "model": "YF15",
+      "oil_type": "0W-20",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "AY100-NS004"
+    },
+    "F15.NF15": {
+      "car": null,
+      "model": "F15.NF15",
+      "oil_type": "5W-30",
+      "oil": 4.3,
+      "filter_oil": 4.5,
+      "part_number": null
+    },
+    "S15": {
+      "car": null,
+      "model": "S15",
+      "oil_type": "10W-30",
+      "oil": 3.3,
+      "filter_oil": 3.5,
+      "part_number": "AY100-NS004 15208-65F00"
+    },
+    "S14.CS14": {
+      "car": null,
+      "model": "S14.CS14",
+      "oil_type": "7.5W-30",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "PS13": {
+      "car": null,
+      "model": "PS13",
+      "oil_type": "7.5W-30",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": "15208-53J00"
+    },
+    "PS13.KPS13": {
+      "car": null,
+      "model": "PS13.KPS13",
+      "oil_type": "7.5W-30",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "TB17": {
+      "car": "SYLPHY",
+      "model": "TB17",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": null
+    },
+    "YV37": {
+      "car": "SKYLINE",
+      "model": "YV37",
+      "oil_type": "0W-30",
+      "oil": 5.8,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "ZV37": {
+      "car": null,
+      "model": "ZV37",
+      "oil_type": "0W-30",
+      "oil": 5.8,
+      "filter_oil": 6.3,
+      "part_number": null
+    },
+    "V36.NV36": {
+      "car": null,
+      "model": "V36.NV36",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "V35.NV35": {
+      "car": null,
+      "model": "V35.NV35",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "ER34": {
+      "car": null,
+      "model": "ER34",
+      "oil_type": "5W-30",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": "AY100-NS007"
+    },
+    "ENR34": {
+      "car": null,
+      "model": "ENR34",
+      "oil_type": "5W-30",
+      "oil": 4.2,
+      "filter_oil": 4.6,
+      "part_number": "AY100-NS007"
+    },
+    "ECR33": {
+      "car": null,
+      "model": "ECR33",
+      "oil_type": "7.5W-30",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": "AY100-NS007"
+    },
+    "RV37": {
+      "car": null,
+      "model": "RV37",
+      "oil_type": "0W-20",
+      "oil": 5.1,
+      "filter_oil": 5.3,
+      "part_number": "15208-65F1A"
+    },
+    "HV35": {
+      "car": null,
+      "model": "HV35",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "HV37.HNV37": {
+      "car": null,
+      "model": "HV37.HNV37",
+      "oil_type": "5W-30",
+      "oil": 4.6,
+      "filter_oil": 4.9,
+      "part_number": null
+    },
+    "PV36": {
+      "car": null,
+      "model": "PV36",
+      "oil_type": "5W-30",
+      "oil": 4.6,
+      "filter_oil": 4.9,
+      "part_number": "AY100-NS004"
+    },
+    "CPV35（COUPE）": {
+      "car": null,
+      "model": "CPV35（COUPE）",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "PV35": {
+      "car": null,
+      "model": "PV35",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": "AY100-NS004"
+    },
+    "CKV36（COUPE）": {
+      "car": null,
+      "model": "CKV36（COUPE）",
+      "oil_type": "5W-30",
+      "oil": 4.6,
+      "filter_oil": 4.9,
+      "part_number": null
+    },
+    "KV36": {
+      "car": null,
+      "model": "KV36",
+      "oil_type": "5W-30",
+      "oil": 4.6,
+      "filter_oil": 4.9,
+      "part_number": null
+    },
+    "BNR34": {
+      "car": "SKYLINE GT-R",
+      "model": "BNR34",
+      "oil_type": "7.5W-30",
+      "oil": 4.2,
+      "filter_oil": 4.6,
+      "part_number": "AY100-NS005 15208-53J00"
+    },
+    "BCNR33": {
+      "car": null,
+      "model": "BCNR33",
+      "oil_type": "7.5W-30",
+      "oil": 4.2,
+      "filter_oil": 4.6,
+      "part_number": "15208-H8904"
+    },
+    "BNR32": {
+      "car": null,
+      "model": "BNR32",
+      "oil_type": "7.5W-30",
+      "oil": 4.2,
+      "filter_oil": 4.6,
+      "part_number": "15208-H8903"
+    },
+    "J50.NJ50": {
+      "car": "SKYLINE CROSSOVER",
+      "model": "J50.NJ50",
+      "oil_type": "5W-30",
+      "oil": 4.6,
+      "filter_oil": 4.9,
+      "part_number": null
+    },
+    "WHC34": {
+      "car": null,
+      "model": "WHC34",
+      "oil_type": "7.5W-30",
+      "oil": 3.8,
+      "filter_oil": 4.2,
+      "part_number": "AY100-NS007"
+    },
+    "WGC34.WGNC34": {
+      "car": null,
+      "model": "WGC34.WGNC34",
+      "oil_type": "5W-30",
+      "oil": 4.3,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "WGNC34": {
+      "car": null,
+      "model": "WGNC34",
+      "oil_type": "7.5W-30",
+      "oil": 4.2,
+      "filter_oil": 4.6,
+      "part_number": "AY100-NS007"
+    },
+    "WGC34": {
+      "car": null,
+      "model": "WGC34",
+      "oil_type": "7.5W-30",
+      "oil": 4.2,
+      "filter_oil": 4.6,
+      "part_number": "AY100-NS007"
+    },
+    "M35.NM35": {
+      "car": null,
+      "model": "M35.NM35",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "WGNC34改（260RS）": {
+      "car": null,
+      "model": "WGNC34改（260RS）",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "PM35.PNM35": {
+      "car": null,
+      "model": "PM35.PNM35",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "HM35.M35": {
+      "car": null,
+      "model": "HM35.M35",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "HC27,HFC27": {
+      "car": "SERENA",
+      "model": "HC27,HFC27",
+      "oil_type": "0W-20",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "PC24.PNC24": {
+      "car": null,
+      "model": "PC24.PNC24",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "C27": {
+      "car": null,
+      "model": "C27",
+      "oil_type": "0W-16",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": "AY100-NS004"
+    },
+    "GC27.GNC27.GFC27.GFNC27": {
+      "car": null,
+      "model": "GC27.GNC27.GFC27.GFNC27",
+      "oil_type": "0W-16",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "HC26.HFC26": {
+      "car": null,
+      "model": "HC26.HFC26",
+      "oil_type": "0W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "C26.NC26.FC26.FNC26": {
+      "car": null,
+      "model": "C26.NC26.FC26.FNC26",
+      "oil_type": "0W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "C25.NC25": {
+      "car": null,
+      "model": "C25.NC25",
+      "oil_type": "0W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "TC24.TNC24": {
+      "car": null,
+      "model": "TC24.TNC24",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "RC24": {
+      "car": null,
+      "model": "RC24",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "B45W,B48W": {
+      "car": "DAYZ",
+      "model": "B45W,B48W",
+      "oil_type": "0W-16",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "B44W,B47W": {
+      "car": null,
+      "model": "B44W,B47W",
+      "oil_type": "0W-8",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "B43W,B46W": {
+      "car": null,
+      "model": "B43W,B46W",
+      "oil_type": "0W-8",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "B21W": {
+      "car": null,
+      "model": "B21W",
+      "oil_type": "0W-20",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "AY100-NS035"
+    },
+    "B21A": {
+      "car": null,
+      "model": "B21A",
+      "oil_type": "0W-20",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "AY100-NS035"
+    },
+    "J31": {
+      "car": "TEANA",
+      "model": "J31",
+      "oil_type": "5W-30",
+      "oil": 4.2,
+      "filter_oil": 4.5,
+      "part_number": "AY100-NS004"
+    },
+    "L33": {
+      "car": null,
+      "model": "L33",
+      "oil_type": "0W-20",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": "AY100-NS004"
+    },
+    "J32": {
+      "car": null,
+      "model": "J32",
+      "oil_type": "5W-30",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": "AY100-NS004"
+    },
+    "TNJ32": {
+      "car": null,
+      "model": "TNJ32",
+      "oil_type": "0W-20",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": "AY100-NS004"
+    },
+    "TNJ31": {
+      "car": null,
+      "model": "TNJ31",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": "AY100-NS004"
+    },
+    "PJ32": {
+      "car": null,
+      "model": "PJ32",
+      "oil_type": "5W-30",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": "AY100-NS004"
+    },
+    "PJ31": {
+      "car": null,
+      "model": "PJ31",
+      "oil_type": "5W-30",
+      "oil": 4.2,
+      "filter_oil": 4.5,
+      "part_number": "AY100-NS004"
+    },
+    "C11.NC11": {
+      "car": null,
+      "model": "C11.NC11",
+      "oil_type": "0W-20",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "JC11": {
+      "car": null,
+      "model": "JC11",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": "AY100-NS004"
+    },
+    "SC11.SNC11": {
+      "car": null,
+      "model": "SC11.SNC11",
+      "oil_type": "0W-20",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "JSC11": {
+      "car": null,
+      "model": "JSC11",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": null
+    },
+    "J10.NJ10.KJ10.KNJ10": {
+      "car": "DUALIS",
+      "model": "J10.NJ10.KJ10.KNJ10",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "E13": {
+      "car": "NOTE",
+      "model": "E13",
+      "oil_type": "0W-20",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": "AY100-NS004"
+    },
+    "HE12 e-power": {
+      "car": null,
+      "model": "HE12 e-power",
+      "oil_type": "0W-20",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "E12": {
+      "car": null,
+      "model": "E12",
+      "oil_type": "0W-20",
+      "oil": 3.3,
+      "filter_oil": 3.5,
+      "part_number": "AY100-NS004"
+    },
+    "E12.NE12": {
+      "car": null,
+      "model": "E12.NE12",
+      "oil_type": "0W-20",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "E11.NE11": {
+      "car": null,
+      "model": "E11.NE11",
+      "oil_type": "0W-20",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "E12 NISMO-S": {
+      "car": null,
+      "model": "E12 NISMO-S",
+      "oil_type": "5W-30",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "ZE11": {
+      "car": null,
+      "model": "ZE11",
+      "oil_type": "5W-30",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "Y51": {
+      "car": "FUGA",
+      "model": "Y51",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": "AY100-NS004"
+    },
+    "Y50": {
+      "car": null,
+      "model": "Y50",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "PY50.PNY50": {
+      "car": null,
+      "model": "PY50.PNY50",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "KY51.KNY51": {
+      "car": null,
+      "model": "KY51.KNY51",
+      "oil_type": "5W-30",
+      "oil": 4.6,
+      "filter_oil": 4.9,
+      "part_number": null
+    },
+    "GY50": {
+      "car": null,
+      "model": "GY50",
+      "oil_type": "0W-20",
+      "oil": 4.9,
+      "filter_oil": 5.5,
+      "part_number": null
+    },
+    "HY51": {
+      "car": "FUGA HYBRID",
+      "model": "HY51",
+      "oil_type": "5W-30",
+      "oil": 4.6,
+      "filter_oil": 4.9,
+      "part_number": "AY100-NS004"
+    },
+    "Z33": {
+      "car": null,
+      "model": "Z33",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": "AY100-NS004"
+    },
+    "HZ33（ROADSTER）": {
+      "car": null,
+      "model": "HZ33（ROADSTER）",
+      "oil_type": "5W-30",
+      "oil": 4.4,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "HZ34": {
+      "car": null,
+      "model": "HZ34",
+      "oil_type": "5W-30",
+      "oil": 4.6,
+      "filter_oil": 4.9,
+      "part_number": null
+    },
+    "Z34": {
+      "car": null,
+      "model": "Z34",
+      "oil_type": "5W-30",
+      "oil": 4.6,
+      "filter_oil": 4.9,
+      "part_number": "AY100-NS004"
+    },
+    "TU31.TNU31": {
+      "car": "PRESAGE",
+      "model": "TU31.TNU31",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": null
+    },
+    "PU31.PNU31": {
+      "car": null,
+      "model": "PU31.PNU31",
+      "oil_type": "5W-30",
+      "oil": 4.2,
+      "filter_oil": 4.5,
+      "part_number": null
+    },
+    "K13.NK13": {
+      "car": "MARCH",
+      "model": "K13.NK13",
+      "oil_type": "0W-20",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "AK12": {
+      "car": null,
+      "model": "AK12",
+      "oil_type": "0W-20",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": "AY100-NS005"
+    },
+    "BK12.BNK12": {
+      "car": null,
+      "model": "BK12.BNK12",
+      "oil_type": "0W-20",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "YK12": {
+      "car": null,
+      "model": "YK12",
+      "oil_type": "0W-20",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "AY100-NS004"
+    },
+    "TZ51.TNZ51": {
+      "car": "MURANO",
+      "model": "TZ51.TNZ51",
+      "oil_type": "0W-20",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": null
+    },
+    "TZ50": {
+      "car": null,
+      "model": "TZ50",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": "AY100-NS004"
+    },
+    "PNZ51": {
+      "car": null,
+      "model": "PNZ51",
+      "oil_type": "5W-30",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": "AY100-NS004"
+    },
+    "PZ50.PNZ50": {
+      "car": null,
+      "model": "PZ50.PNZ50",
+      "oil_type": "5W-30",
+      "oil": 4.2,
+      "filter_oil": 4.5,
+      "part_number": null
+    },
+    "MG33S": {
+      "car": null,
+      "model": "MG33S",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "15208-4A0A0"
+    },
+    "MG22S": {
+      "car": null,
+      "model": "MG22S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "15208-4A0A0"
+    },
+    "MG21S": {
+      "car": null,
+      "model": "MG21S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "AY100-KE002"
+    },
+    "B30.NB30": {
+      "car": "LAFESTA",
+      "model": "B30.NB30",
+      "oil_type": "0W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "型    式": {
+      "car": "車    種",
+      "model": "型    式",
+      "oil_type": "純正粘度",
+      "oil": "交換時オイル量（L）",
+      "filter_oil": null,
+      "part_number": null
+    },
+    "CWFFWN": {
+      "car": "LAFESTA HIGHWAYSTAR",
+      "model": "CWFFWN",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "AY100-KE001"
+    },
+    "CWEFWN": {
+      "car": null,
+      "model": "CWEFWN",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "CWEAWN": {
+      "car": null,
+      "model": "CWEAWN",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "B45A,B48A": {
+      "car": "ROOX",
+      "model": "B45A,B48A",
+      "oil_type": "0W-16",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "B44A,B47A": {
+      "car": null,
+      "model": "B44A,B47A",
+      "oil_type": "0W-8",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "ML21S": {
+      "car": null,
+      "model": "ML21S",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "AY100-KE002"
+    },
+    "RW1,RW2": {
+      "car": "CR-V",
+      "model": "RW1,RW2",
+      "oil_type": "ULTRA\nLEO",
+      "oil": 3.2,
+      "filter_oil": 3.5,
+      "part_number": null
+    },
+    "RT5,RT6": {
+      "car": null,
+      "model": "RT5,RT6",
+      "oil_type": "ULTRA\nLEO",
+      "oil": 3.5,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "RM1": {
+      "car": null,
+      "model": "RM1",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "RM4": {
+      "car": null,
+      "model": "RM4",
+      "oil_type": "0W-20",
+      "oil": 3.8,
+      "filter_oil": 4.0,
+      "part_number": null
+    },
+    "RE3.RE4": {
+      "car": null,
+      "model": "RE3.RE4",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "RD6.RD7": {
+      "car": null,
+      "model": "RD6.RD7",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ZF2": {
+      "car": "CR-Z",
+      "model": "ZF2",
+      "oil_type": "ULTRA\nGreen",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": "15400-RTA-003"
+    },
+    "ZF1": {
+      "car": null,
+      "model": "ZF1",
+      "oil_type": "ULTRA\nGreen",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": "15400-RTA-003"
+    },
+    "GH2.GH3.GH4（LEV）": {
+      "car": "HR-V",
+      "model": "GH2.GH3.GH4（LEV）",
+      "oil_type": "5W-30",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "GH1.GH2.GH3.GH4（LEV）": {
+      "car": null,
+      "model": "GH1.GH2.GH3.GH4（LEV）",
+      "oil_type": "5W-30",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "GH2.GH4（LEV）": {
+      "car": null,
+      "model": "GH2.GH4（LEV）",
+      "oil_type": "5W-30",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "JF3.JF4": {
+      "car": null,
+      "model": "JF3.JF4",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 2.4,
+      "filter_oil": 2.8,
+      "part_number": null
+    },
+    "JF1.JF2": {
+      "car": null,
+      "model": "JF1.JF2",
+      "oil_type": "ULTRA\nGreen",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": null
+    },
+    "JF1": {
+      "car": "N BOX+",
+      "model": "JF1",
+      "oil_type": "0W-20",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": "15400-RTA-004"
+    },
+    "JF2": {
+      "car": null,
+      "model": "JF2",
+      "oil_type": "0W-20",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": "15400-RTA-004"
+    },
+    "JG3,JG4": {
+      "car": null,
+      "model": "JG3,JG4",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 2.4,
+      "filter_oil": 2.8,
+      "part_number": null
+    },
+    "JG1.JG2": {
+      "car": null,
+      "model": "JG1.JG2",
+      "oil_type": "0W-20",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": null
+    },
+    "JJ1,JJ2": {
+      "car": null,
+      "model": "JJ1,JJ2",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 2.4,
+      "filter_oil": 2.8,
+      "part_number": null
+    },
+    "JH3,JH4": {
+      "car": null,
+      "model": "JH3,JH4",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 2.4,
+      "filter_oil": 2.8,
+      "part_number": null
+    },
+    "JH1.JH2": {
+      "car": null,
+      "model": "JH1.JH2",
+      "oil_type": "0W-20",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": null
+    },
+    "NA1": {
+      "car": "NSX",
+      "model": "NA1",
+      "oil_type": "5W-40",
+      "oil": 4.3,
+      "filter_oil": 5.0,
+      "part_number": null
+    },
+    "NA2": {
+      "car": null,
+      "model": "NA2",
+      "oil_type": "5W-40",
+      "oil": 4.3,
+      "filter_oil": 5.0,
+      "part_number": null
+    },
+    "NC1": {
+      "car": null,
+      "model": "NC1",
+      "oil_type": "10W-40",
+      "oil": 7.3,
+      "filter_oil": 7.9,
+      "part_number": null
+    },
+    "AP2": {
+      "car": "S2000",
+      "model": "AP2",
+      "oil_type": "5W-40",
+      "oil": 4.5,
+      "filter_oil": 4.8,
+      "part_number": "15400-PLC-004"
+    },
+    "AP1": {
+      "car": null,
+      "model": "AP1",
+      "oil_type": "5W-40",
+      "oil": 4.5,
+      "filter_oil": 4.8,
+      "part_number": "15400-RTA-004"
+    },
+    "JW5": {
+      "car": "S660",
+      "model": "JW5",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": "15400-RTA-004"
+    },
+    "HA8,HA9": {
+      "car": "ACTY TRUCK",
+      "model": "HA8,HA9",
+      "oil_type": "0W-20",
+      "oil": 2.5,
+      "filter_oil": 2.7,
+      "part_number": null
+    },
+    "HH5,HH6": {
+      "car": null,
+      "model": "HH5,HH6",
+      "oil_type": "5W-30",
+      "oil": 2.5,
+      "filter_oil": 2.7,
+      "part_number": null
+    },
+    "CV3": {
+      "car": "ACCORD",
+      "model": "CV3",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.8,
+      "part_number": "15400-RTA-003"
+    },
+    "CU1": {
+      "car": null,
+      "model": "CU1",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "CL7.CL8": {
+      "car": null,
+      "model": "CL7.CL8",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "CL7（EURO-R）": {
+      "car": null,
+      "model": "CL7（EURO-R）",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "CU2": {
+      "car": null,
+      "model": "CU2",
+      "oil_type": "0W-20",
+      "oil": 3.8,
+      "filter_oil": 4.0,
+      "part_number": null
+    },
+    "CL9": {
+      "car": null,
+      "model": "CL9",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "CW1": {
+      "car": "ACCORD TOURER",
+      "model": "CW1",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "CW2": {
+      "car": null,
+      "model": "CW2",
+      "oil_type": "0W-20",
+      "oil": 3.8,
+      "filter_oil": 4.0,
+      "part_number": null
+    },
+    "CR7": {
+      "car": "ACCORD HYBRID",
+      "model": "CR7",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.5,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "CR5.CR6": {
+      "car": null,
+      "model": "CR5.CR6",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "CM1": {
+      "car": "ACCORD WAGON",
+      "model": "CM1",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "CM2": {
+      "car": null,
+      "model": "CM2",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "CM3": {
+      "car": null,
+      "model": "CM3",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "ZE2": {
+      "car": "INSIGHT",
+      "model": "ZE2",
+      "oil_type": "ULTRA\nGreen",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "15400-RTA-004"
+    },
+    "ZE4": {
+      "car": null,
+      "model": "ZE4",
+      "oil_type": "ULTRA\nLEO",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "15400-RTA-003"
+    },
+    "ZE3": {
+      "car": null,
+      "model": "ZE3",
+      "oil_type": "ULTRA\nGreen",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": "15400-RTA-004"
+    },
+    "UC1": {
+      "car": "INSPIRE",
+      "model": "UC1",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "CP3": {
+      "car": null,
+      "model": "CP3",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "DC5（is）": {
+      "car": "INTEGRA",
+      "model": "DC5（is）",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "DC5（TYPE-R）": {
+      "car": null,
+      "model": "DC5（TYPE-R）",
+      "oil_type": "5W-40",
+      "oil": 4.5,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "RV3,RV4": {
+      "car": "VEZEL",
+      "model": "RV3,RV4",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": null,
+      "filter_oil": null,
+      "part_number": null
+    },
+    "RV5,RV6": {
+      "car": null,
+      "model": "RV5,RV6",
+      "oil_type": "ULTRA\nLEO",
+      "oil": null,
+      "filter_oil": null,
+      "part_number": null
+    },
+    "RU1": {
+      "car": null,
+      "model": "RU1",
+      "oil_type": "ULTRA\nLEO",
+      "oil": 3.2,
+      "filter_oil": 3.5,
+      "part_number": "15400-RTA-004"
+    },
+    "RU1.RU2": {
+      "car": null,
+      "model": "RU1.RU2",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "RU3.RU4": {
+      "car": "VEZEL HV",
+      "model": "RU3.RU4",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "GJ1.GJ2": {
+      "car": "AIRWAVE",
+      "model": "GJ1.GJ2",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "BE1": {
+      "car": "EDIX",
+      "model": "BE1",
+      "oil_type": "0W-20",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "15400-PLC-004"
+    },
+    "BE2": {
+      "car": null,
+      "model": "BE2",
+      "oil_type": "0W-20",
+      "oil": 3.3,
+      "filter_oil": 3.5,
+      "part_number": "15400-PLC-004"
+    },
+    "BE3.BE4": {
+      "car": null,
+      "model": "BE3.BE4",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "BE8": {
+      "car": null,
+      "model": "BE8",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "RR1.RR2": {
+      "car": "ELYSION",
+      "model": "RR1.RR2",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "RR3.RR4": {
+      "car": null,
+      "model": "RR3.RR4",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "RR5.RR6": {
+      "car": null,
+      "model": "RR5.RR6",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "RC1.RC2": {
+      "car": "ODYSSEY",
+      "model": "RC1.RC2",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "RB3.RB4": {
+      "car": null,
+      "model": "RB3.RB4",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "RB3.RB4（ABSOLUTE）": {
+      "car": null,
+      "model": "RB3.RB4（ABSOLUTE）",
+      "oil_type": "0W-20",
+      "oil": 3.8,
+      "filter_oil": 4.0,
+      "part_number": null
+    },
+    "RB1.RB2": {
+      "car": null,
+      "model": "RB1.RB2",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "RB1RB2（ABSOLUTE）": {
+      "car": null,
+      "model": "RB1RB2（ABSOLUTE）",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "RC4": {
+      "car": "ODYSSEY HV",
+      "model": "RC4",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.5,
+      "filter_oil": 3.8,
+      "part_number": "15400-RTA-003"
+    },
+    "ZC5": {
+      "car": "CLARITY PHEV",
+      "model": "ZC5",
+      "oil_type": "ULTRA\nLEO",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "15400-RTA-003"
+    },
+    "GM6.GM9": {
+      "car": "GRACE",
+      "model": "GM6.GM9",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "GM4.GM5": {
+      "car": "GRACE HV",
+      "model": "GM4.GM5",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "RT1.RT2": {
+      "car": "CROSSROAD",
+      "model": "RT1.RT2",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "RT3.RT4": {
+      "car": null,
+      "model": "RT3.RT4",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "JD1,JD2": {
+      "car": null,
+      "model": "JD1,JD2",
+      "oil_type": "5W-30",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": null
+    },
+    "FR5": {
+      "car": "JADE",
+      "model": "FR5",
+      "oil_type": "ULTRA\nLEO",
+      "oil": 3.2,
+      "filter_oil": 3.5,
+      "part_number": "15400-RTA-004"
+    },
+    "FR4": {
+      "car": "JADE HV",
+      "model": "FR4",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "15400-RTA-004"
+    },
+    "FD3": {
+      "car": null,
+      "model": "FD3",
+      "oil_type": "0W-20",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "15400-RTA-004"
+    },
+    "FC1": {
+      "car": null,
+      "model": "FC1",
+      "oil_type": "ULTRA\nLEO",
+      "oil": 3.2,
+      "filter_oil": 3.5,
+      "part_number": "15400-RTA-003"
+    },
+    "FK7": {
+      "car": null,
+      "model": "FK7",
+      "oil_type": "ULTRA\nLEO",
+      "oil": 3.2,
+      "filter_oil": 3.5,
+      "part_number": "15400-RTA-003"
+    },
+    "ES1.ES2": {
+      "car": null,
+      "model": "ES1.ES2",
+      "oil_type": "0W-20",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": null
+    },
+    "ES3.ET2": {
+      "car": null,
+      "model": "ES3.ET2",
+      "oil_type": "0W-20",
+      "oil": 3.3,
+      "filter_oil": 3.5,
+      "part_number": null
+    },
+    "FD1": {
+      "car": null,
+      "model": "FD1",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": "15400-RTA-004"
+    },
+    "FD2": {
+      "car": null,
+      "model": "FD2",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15400-RTA-004"
+    },
+    "FK8": {
+      "car": "CIVIC TYPE R",
+      "model": "FK8",
+      "oil_type": "ULTRA\nLEO",
+      "oil": 5,
+      "filter_oil": 5.4,
+      "part_number": "15400-PLM-A02"
+    },
+    "FK2": {
+      "car": null,
+      "model": "FK2",
+      "oil_type": "ULTRA\nLEO",
+      "oil": 5,
+      "filter_oil": 5.4,
+      "part_number": "15400-RTA-004"
+    },
+    "FN2": {
+      "car": null,
+      "model": "FN2",
+      "oil_type": "5W-30",
+      "oil": 4.2,
+      "filter_oil": 4.4,
+      "part_number": null
+    },
+    "FD2（TYPE-R）": {
+      "car": null,
+      "model": "FD2（TYPE-R）",
+      "oil_type": "5W-30",
+      "oil": 4.5,
+      "filter_oil": 4.7,
+      "part_number": null
+    },
+    "EP3": {
+      "car": null,
+      "model": "EP3",
+      "oil_type": "5W-30",
+      "oil": 4.5,
+      "filter_oil": 4.7,
+      "part_number": "15400-RTA-004"
+    },
+    "RP3.RP4": {
+      "car": "STEPWGN",
+      "model": "RP3.RP4",
+      "oil_type": "ULTRA\nLEO",
+      "oil": 3.2,
+      "filter_oil": 3.5,
+      "part_number": null
+    },
+    "RK1.RK2.RK3.RK4": {
+      "car": null,
+      "model": "RK1.RK2.RK3.RK4",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "RG1.RG2": {
+      "car": "STEPWGN",
+      "model": "RG1.RG2",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "RF5.RF6（SPADA）": {
+      "car": null,
+      "model": "RF5.RF6（SPADA）",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "RF3.RF4": {
+      "car": null,
+      "model": "RF3.RF4",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "RG3.RG4": {
+      "car": null,
+      "model": "RG3.RG4",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "RF7.RF8（SPADA）": {
+      "car": null,
+      "model": "RF7.RF8（SPADA）",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "RP5": {
+      "car": "STEPWGN SPADA\nHYBRID",
+      "model": "RP5",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.5,
+      "filter_oil": 3.8,
+      "part_number": "15400-RTA-003"
+    },
+    "RN2": {
+      "car": "STREAM",
+      "model": "RN2",
+      "oil_type": "0W-20",
+      "oil": 3.3,
+      "filter_oil": 3.5,
+      "part_number": "15208-KA011"
+    },
+    "RN1": {
+      "car": null,
+      "model": "RN1",
+      "oil_type": "0W-20",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "15208-KA011"
+    },
+    "RN6.RN7": {
+      "car": null,
+      "model": "RN6.RN7",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "RN8.RN9": {
+      "car": null,
+      "model": "RN8.RN9",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "RN5": {
+      "car": null,
+      "model": "RN5",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15400-PLC-004"
+    },
+    "RN3.RN4": {
+      "car": null,
+      "model": "RN3.RN4",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "JE1.JE2": {
+      "car": null,
+      "model": "JE1.JE2",
+      "oil_type": "5W-30",
+      "oil": 2.6,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "HM1.HM2": {
+      "car": null,
+      "model": "HM1.HM2",
+      "oil_type": "5W-30",
+      "oil": 2.5,
+      "filter_oil": 2.7,
+      "part_number": null
+    },
+    "HJ1.HJ2": {
+      "car": "VAMOS   HOBIO",
+      "model": "HJ1.HJ2",
+      "oil_type": "0w-20",
+      "oil": 2.5,
+      "filter_oil": 2.7,
+      "part_number": null
+    },
+    "HM3.HM4": {
+      "car": null,
+      "model": "HM3.HM4",
+      "oil_type": "5W-30",
+      "oil": 2.5,
+      "filter_oil": 2.7,
+      "part_number": null
+    },
+    "GR1、GR2": {
+      "car": "FIT",
+      "model": "GR1、GR2",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "GR5,GR7": {
+      "car": null,
+      "model": "GR5,GR7",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "GK3.GK4": {
+      "car": null,
+      "model": "GK3.GK4",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "GE6.GE7": {
+      "car": null,
+      "model": "GE6.GE7",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "GD1.GD2": {
+      "car": null,
+      "model": "GD1.GD2",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "GR3,GR4": {
+      "car": null,
+      "model": "GR3,GR4",
+      "oil_type": "ULTRA\nLEO",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "GR6,GR8": {
+      "car": null,
+      "model": "GR6,GR8",
+      "oil_type": "ULTRA\nLEO",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "GK5.GK6": {
+      "car": null,
+      "model": "GK5.GK6",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "GE8.GE9": {
+      "car": null,
+      "model": "GE8.GE9",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "GD3.GD4": {
+      "car": null,
+      "model": "GD3.GD4",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "GP1": {
+      "car": "FIT HYBRID",
+      "model": "GP1",
+      "oil_type": "ULTRA\nGreen",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "15400-RTA-004"
+    },
+    "GP5": {
+      "car": null,
+      "model": "GP5",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "15400-RTA-004"
+    },
+    "GP6": {
+      "car": null,
+      "model": "GP6",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "15208AA100"
+    },
+    "GP4": {
+      "car": null,
+      "model": "GP4",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": "15400-RTA-004"
+    },
+    "GD6.GD7": {
+      "car": "FIT   ARIA",
+      "model": "GD6.GD7",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "GD8.GD9": {
+      "car": null,
+      "model": "GD8.GD9",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "GG7.GG8": {
+      "car": "FIT SHUTTLE",
+      "model": "GG7.GG8",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "GP2": {
+      "car": "FIT SHUTTLE HYBRID",
+      "model": "GP2",
+      "oil_type": "ULTRA\nGreen",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "15208AA100"
+    },
+    "GB5.GB6": {
+      "car": "FREED+",
+      "model": "GB5.GB6",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "GB3.GB4": {
+      "car": "FREED SPIKE",
+      "model": "GB3.GB4",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "GB7.GB8": {
+      "car": "FREED+ HYBRID",
+      "model": "GB7.GB8",
+      "oil_type": "ULTRA\nNEXT",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "GP3": {
+      "car": "FREED SPIKE HYBRID",
+      "model": "GP3",
+      "oil_type": "ULTRA\nGreen",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": "15208AA100"
+    },
+    "GB1.GB2": {
+      "car": "MOBILIO",
+      "model": "GB1.GB2",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "GK1.GK2": {
+      "car": "MOBILIO SPIKE",
+      "model": "GK1.GK2",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "JC1.JC2": {
+      "car": null,
+      "model": "JC1.JC2",
+      "oil_type": "5W-30",
+      "oil": 2.6,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "JB5.JB6": {
+      "car": null,
+      "model": "JB5.JB6",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "JB7.JB8": {
+      "car": null,
+      "model": "JB7.JB8",
+      "oil_type": "5W-30",
+      "oil": 2.6,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "KC2": {
+      "car": "LEGEND",
+      "model": "KC2",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "15400-RTA-004"
+    },
+    "KB1": {
+      "car": null,
+      "model": "KB1",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "KB2": {
+      "car": null,
+      "model": "KB2",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "H81W": {
+      "car": null,
+      "model": "H81W",
+      "oil_type": "5W-20",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "MD134953"
+    },
+    "B35W,B38W": {
+      "car": "eK X",
+      "model": "B35W,B38W",
+      "oil_type": "0W-16",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "B34W,B37W": {
+      "car": null,
+      "model": "B34W,B37W",
+      "oil_type": "0W-8",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "B35A,B38A": {
+      "car": "eK SPACE",
+      "model": "B35A,B38A",
+      "oil_type": "0W-16",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "B34A,B37A": {
+      "car": null,
+      "model": "B34A,B37A",
+      "oil_type": "0W-8",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "B11A": {
+      "car": null,
+      "model": "B11A",
+      "oil_type": "0W-20",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "1230A040"
+    },
+    "H82W": {
+      "car": null,
+      "model": "H82W",
+      "oil_type": "0W-20",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "1230A040"
+    },
+    "B33W,B36W": {
+      "car": "ek WAGON",
+      "model": "B33W,B36W",
+      "oil_type": "0W-8",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "B11W": {
+      "car": null,
+      "model": "B11W",
+      "oil_type": "0W-20",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": "1230A040"
+    },
+    "HA1W": {
+      "car": null,
+      "model": "HA1W",
+      "oil_type": "5W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": "1230A040"
+    },
+    "HA4W": {
+      "car": "i-MIEV",
+      "model": "HA4W",
+      "oil_type": "－",
+      "oil": null,
+      "filter_oil": null,
+      "part_number": null
+    },
+    "GA4W": {
+      "car": "RVR",
+      "model": "GA4W",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "MD360935"
+    },
+    "GA3W": {
+      "car": null,
+      "model": "GA3W",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "MD360935"
+    },
+    "GF7W": {
+      "car": "OUTLANDER",
+      "model": "GF7W",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "MD360935"
+    },
+    "GF8W": {
+      "car": null,
+      "model": "GF8W",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "MD360935"
+    },
+    "CW5W": {
+      "car": null,
+      "model": "CW5W",
+      "oil_type": "0W-20",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": "MD360935"
+    },
+    "CW6W": {
+      "car": null,
+      "model": "CW6W",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "MD360935"
+    },
+    "GG2W": {
+      "car": "OUTLANDER PHEV",
+      "model": "GG2W",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "MD360935"
+    },
+    "GG3W": {
+      "car": null,
+      "model": "GG3W",
+      "oil_type": "0W-20",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": "MD360935"
+    },
+    "CU2W": {
+      "car": null,
+      "model": "CU2W",
+      "oil_type": "5W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "D53A": {
+      "car": "ECLIPSE",
+      "model": "D53A",
+      "oil_type": "5W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "GK1W": {
+      "car": "ECLIPSE CROSS",
+      "model": "GK1W",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": "MZ690115"
+    },
+    "GK9W": {
+      "car": null,
+      "model": "GK9W",
+      "oil_type": "0W-30",
+      "oil": 5.6,
+      "filter_oil": 5.9,
+      "part_number": null
+    },
+    "CY6A": {
+      "car": "GALANT FORTIS",
+      "model": "CY6A",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "MD360935"
+    },
+    "CY3A": {
+      "car": null,
+      "model": "CY3A",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "MD360935"
+    },
+    "CY4A": {
+      "car": null,
+      "model": "CY4A",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "MD356000"
+    },
+    "CX6A": {
+      "car": "GALANT FORTIS SPORTBACK",
+      "model": "CX6A",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "MD360935"
+    },
+    "CX3A": {
+      "car": null,
+      "model": "CX3A",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "MD360935"
+    },
+    "CX4A": {
+      "car": null,
+      "model": "CX4A",
+      "oil_type": "5W-30",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": "MD356000"
+    },
+    "Z21A.Z22A": {
+      "car": null,
+      "model": "Z21A.Z22A",
+      "oil_type": "0W-20",
+      "oil": 3.8,
+      "filter_oil": 4.0,
+      "part_number": null
+    },
+    "Z27AG": {
+      "car": null,
+      "model": "Z27AG",
+      "oil_type": "10W-30",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": "MD356000"
+    },
+    "Z23A.Z24A": {
+      "car": null,
+      "model": "Z23A.Z24A",
+      "oil_type": "0W-20",
+      "oil": 3.8,
+      "filter_oil": 4.0,
+      "part_number": null
+    },
+    "Z27A": {
+      "car": null,
+      "model": "Z27A",
+      "oil_type": "10W-30",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": "MD360935"
+    },
+    "Z21W.Z22W": {
+      "car": "COLT PLUS",
+      "model": "Z21W.Z22W",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "Z23W.Z24W": {
+      "car": null,
+      "model": "Z23W.Z24W",
+      "oil_type": "0W-20",
+      "oil": 3.8,
+      "filter_oil": 4.0,
+      "part_number": null
+    },
+    "Z27W": {
+      "car": null,
+      "model": "Z27W",
+      "oil_type": "10W-30",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": "MD136466"
+    },
+    "DS17W": {
+      "car": "TOWN BOX",
+      "model": "DS17W",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.8,
+      "part_number": "MQ508007"
+    },
+    "DS64W": {
+      "car": null,
+      "model": "DS64W",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "MQ500566 MQ504532"
+    },
+    "U61W.U62W": {
+      "car": null,
+      "model": "U61W.U62W",
+      "oil_type": "5W-30",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": null
+    },
+    "U63W.U64W": {
+      "car": "TOWN   BOX",
+      "model": "U63W.U64W",
+      "oil_type": "10W-30",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": null
+    },
+    "MB36S": {
+      "car": "DELICA D:2",
+      "model": "MB36S",
+      "oil_type": "0W-16",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "MQ509769"
+    },
+    "MB46S": {
+      "car": null,
+      "model": "MB46S",
+      "oil_type": "0W-16",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "MB15S": {
+      "car": null,
+      "model": "MB15S",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": "MQ500566"
+    },
+    "BM20": {
+      "car": "DELICA D:3",
+      "model": "BM20",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "MQ700013"
+    },
+    "CV2W": {
+      "car": "DELICA D:5",
+      "model": "CV2W",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "MD360935"
+    },
+    "CV4W": {
+      "car": null,
+      "model": "CV4W",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "MD360935"
+    },
+    "CV1W": {
+      "car": null,
+      "model": "CV1W",
+      "oil_type": "0W-30",
+      "oil": 5.6,
+      "filter_oil": 5.9,
+      "part_number": "MD360935"
+    },
+    "CV5W": {
+      "car": null,
+      "model": "CV5W",
+      "oil_type": "0W-20",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": "MD360935"
+    },
+    "H82A": {
+      "car": null,
+      "model": "H82A",
+      "oil_type": "5W-20",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": null
+    },
+    "V83W.V93W": {
+      "car": "PAJERO",
+      "model": "V83W.V93W",
+      "oil_type": "0W-20",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": null
+    },
+    "V63W.V73W": {
+      "car": null,
+      "model": "V63W.V73W",
+      "oil_type": "5W-30",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": null
+    },
+    "V88W.V98W": {
+      "car": null,
+      "model": "V88W.V98W",
+      "oil_type": "0W-30",
+      "oil": 7.5,
+      "filter_oil": 8.5,
+      "part_number": null
+    },
+    "V68W.V78W": {
+      "car": null,
+      "model": "V68W.V78W",
+      "oil_type": "10W-30",
+      "oil": 8.8,
+      "filter_oil": 9.8,
+      "part_number": null
+    },
+    "V65W.V75W": {
+      "car": null,
+      "model": "V65W.V75W",
+      "oil_type": "5W-30",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": null
+    },
+    "V87W.V97W": {
+      "car": null,
+      "model": "V87W.V97W",
+      "oil_type": "0W-20",
+      "oil": 4.6,
+      "filter_oil": 4.9,
+      "part_number": null
+    },
+    "V77W": {
+      "car": null,
+      "model": "V77W",
+      "oil_type": "5W-20",
+      "oil": 4.3,
+      "filter_oil": 4.6,
+      "part_number": null
+    },
+    "H76W": {
+      "car": null,
+      "model": "H76W",
+      "oil_type": "5W-20",
+      "oil": 3.5,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "H77W": {
+      "car": null,
+      "model": "H77W",
+      "oil_type": "5W-20",
+      "oil": 3.5,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "H53A": {
+      "car": null,
+      "model": "H53A",
+      "oil_type": "5W-20",
+      "oil": 3.3,
+      "filter_oil": 3.5,
+      "part_number": "MD134953"
+    },
+    "H58A": {
+      "car": null,
+      "model": "H58A",
+      "oil_type": "5W-20",
+      "oil": 3.3,
+      "filter_oil": 3.5,
+      "part_number": "MD134953"
+    },
+    "H42A": {
+      "car": "MINICA",
+      "model": "H42A",
+      "oil_type": "5W-20",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": null
+    },
+    "DS17V": {
+      "car": null,
+      "model": "DS17V",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.8,
+      "part_number": "MQ508007"
+    },
+    "DS64V": {
+      "car": null,
+      "model": "DS64V",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "MQ500566 MQ504532"
+    },
+    "U61V.U62V": {
+      "car": null,
+      "model": "U61V.U62V",
+      "oil_type": "5W-30",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": null
+    },
+    "U61T.U61TP.U62T.U62TP": {
+      "car": null,
+      "model": "U61T.U61TP.U62T.U62TP",
+      "oil_type": "5W-30",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": null
+    },
+    "A05A": {
+      "car": "MIRAGE",
+      "model": "A05A",
+      "oil_type": "0W-20",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "MD360935"
+    },
+    "A03A": {
+      "car": null,
+      "model": "A03A",
+      "oil_type": "0W-20",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "MD360935"
+    },
+    "CS2A": {
+      "car": "LANCER",
+      "model": "CS2A",
+      "oil_type": "5W-20",
+      "oil": 3,
+      "filter_oil": 3.3,
+      "part_number": "MD360935"
+    },
+    "CS5A": {
+      "car": null,
+      "model": "CS5A",
+      "oil_type": "5W-20",
+      "oil": 3.5,
+      "filter_oil": 3.8,
+      "part_number": "MD360935"
+    },
+    "CS6A": {
+      "car": null,
+      "model": "CS6A",
+      "oil_type": "5W-20",
+      "oil": 3.5,
+      "filter_oil": 3.8,
+      "part_number": "MD360935"
+    },
+    "CS5W": {
+      "car": null,
+      "model": "CS5W",
+      "oil_type": "5W-20",
+      "oil": 3.5,
+      "filter_oil": 3.8,
+      "part_number": "MD360935"
+    },
+    "CZ4A（EVOⅩ）": {
+      "car": "LANCER EVOLUTION",
+      "model": "CZ4A（EVOⅩ）",
+      "oil_type": "10W-30",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "CT9A（EVOⅨ   MR）": {
+      "car": null,
+      "model": "CT9A（EVOⅨ   MR）",
+      "oil_type": "10W-30",
+      "oil": 4.5,
+      "filter_oil": 4.8,
+      "part_number": null
+    },
+    "CT9A（EVOⅨ）": {
+      "car": null,
+      "model": "CT9A（EVOⅨ）",
+      "oil_type": "10W-30",
+      "oil": 4.5,
+      "filter_oil": 4.8,
+      "part_number": null
+    },
+    "CT9A（EVOⅧ   MR）": {
+      "car": null,
+      "model": "CT9A（EVOⅧ   MR）",
+      "oil_type": "10W-30",
+      "oil": 4.5,
+      "filter_oil": 4.8,
+      "part_number": null
+    },
+    "CT9A（EVOⅧ）": {
+      "car": null,
+      "model": "CT9A（EVOⅧ）",
+      "oil_type": "10W-30",
+      "oil": 4.5,
+      "filter_oil": 4.8,
+      "part_number": null
+    },
+    "CT9A（EVO GT-A）": {
+      "car": null,
+      "model": "CT9A（EVO GT-A）",
+      "oil_type": "10W-30",
+      "oil": 4.5,
+      "filter_oil": 4.8,
+      "part_number": null
+    },
+    "CT9A（EVOⅦ）": {
+      "car": null,
+      "model": "CT9A（EVOⅦ）",
+      "oil_type": "10W-30",
+      "oil": 4.5,
+      "filter_oil": 4.8,
+      "part_number": null
+    },
+    "CP9A\n（EVOⅥ,Tommi･Makinen   EDITION）": {
+      "car": null,
+      "model": "CP9A\n（EVOⅥ,Tommi･Makinen   EDITION）",
+      "oil_type": "10W-30",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "CP9A（EVOⅥ）": {
+      "car": null,
+      "model": "CP9A（EVOⅥ）",
+      "oil_type": "10W-30",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "CP9A（EVOⅤ）": {
+      "car": null,
+      "model": "CP9A（EVOⅤ）",
+      "oil_type": "10W-30",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "CN9A（EVOⅣ）": {
+      "car": null,
+      "model": "CN9A（EVOⅣ）",
+      "oil_type": "10W-30",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "CE9A（EVOⅢ）": {
+      "car": "LANCER EVOLUTION",
+      "model": "CE9A（EVOⅢ）",
+      "oil_type": "10W-30",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "CE9A（EVOⅡ）": {
+      "car": null,
+      "model": "CE9A（EVOⅡ）",
+      "oil_type": "10W-30",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "CD9A（EVOⅠ）": {
+      "car": null,
+      "model": "CD9A（EVOⅠ）",
+      "oil_type": "10W-30",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "CT9W（GT-A,AT）": {
+      "car": "LANCER EVOLUTION WAGON",
+      "model": "CT9W（GT-A,AT）",
+      "oil_type": "10W-30",
+      "oil": 4.5,
+      "filter_oil": 4.8,
+      "part_number": null
+    },
+    "CT9W（GT,MT）": {
+      "car": null,
+      "model": "CT9W（GT,MT）",
+      "oil_type": "10W-30",
+      "oil": 4.5,
+      "filter_oil": 4.8,
+      "part_number": null
+    },
+    "CVY12": {
+      "car": "LANCER CARGO",
+      "model": "CVY12",
+      "oil_type": "0W-20",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "MQ700013"
+    },
+    "CS2V": {
+      "car": null,
+      "model": "CS2V",
+      "oil_type": "5W-20",
+      "oil": 3,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "CVZNY12": {
+      "car": null,
+      "model": "CVZNY12",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "MQ700013"
+    },
+    "CVJY12": {
+      "car": null,
+      "model": "CVJY12",
+      "oil_type": "0W-20",
+      "oil": 4.4,
+      "filter_oil": 4.6,
+      "part_number": "MQ700013"
+    },
+    "ZC6": {
+      "car": "BRZ",
+      "model": "ZC6",
+      "oil_type": "0W-20",
+      "oil": 5.2,
+      "filter_oil": 5.4,
+      "part_number": "15208AA130"
+    },
+    "VAB": {
+      "car": "WRX",
+      "model": "VAB",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "15208AA100"
+    },
+    "VAG": {
+      "car": null,
+      "model": "VAG",
+      "oil_type": "5W-30",
+      "oil": 4.9,
+      "filter_oil": 5.1,
+      "part_number": "15208AA100"
+    },
+    "GT3": {
+      "car": "XV",
+      "model": "GT3",
+      "oil_type": "0W-20",
+      "oil": 4.2,
+      "filter_oil": 4.4,
+      "part_number": "15208AA100"
+    },
+    "GT7": {
+      "car": null,
+      "model": "GT7",
+      "oil_type": "0W-20",
+      "oil": 4.2,
+      "filter_oil": 4.4,
+      "part_number": "15208AA100"
+    },
+    "GP7": {
+      "car": null,
+      "model": "GP7",
+      "oil_type": "0W-20",
+      "oil": 4.6,
+      "filter_oil": 4.8,
+      "part_number": "15208AA100"
+    },
+    "GTE": {
+      "car": "XV HYBRID",
+      "model": "GTE",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "GPE": {
+      "car": "IMPREZA SPORT HV",
+      "model": "GPE",
+      "oil_type": "0W-20",
+      "oil": 4.6,
+      "filter_oil": 4.8,
+      "part_number": "15208AA100"
+    },
+    "GH2.GH3": {
+      "car": "IMPREZA",
+      "model": "GH2.GH3",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "GDC.GDD": {
+      "car": null,
+      "model": "GDC.GDD",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "GD2.GD3": {
+      "car": null,
+      "model": "GD2.GD3",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "GVB": {
+      "car": null,
+      "model": "GVB",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "15208AA100"
+    },
+    "GH6": {
+      "car": null,
+      "model": "GH6",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "GRB": {
+      "car": null,
+      "model": "GRB",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "15208AA100"
+    },
+    "GH7": {
+      "car": null,
+      "model": "GH7",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "GH8": {
+      "car": null,
+      "model": "GH8",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "GDA": {
+      "car": null,
+      "model": "GDA",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208-AA024他"
+    },
+    "GDB": {
+      "car": null,
+      "model": "GDB",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "15208-AA024他"
+    },
+    "GVF": {
+      "car": null,
+      "model": "GVF",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "15208AA100"
+    },
+    "GRF": {
+      "car": null,
+      "model": "GRF",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "15208AA100"
+    },
+    "GK2.GK3": {
+      "car": "IMPREZA G4",
+      "model": "GK2.GK3",
+      "oil_type": "0W-20",
+      "oil": 4.2,
+      "filter_oil": 4.4,
+      "part_number": null
+    },
+    "GJ2.GJ3": {
+      "car": null,
+      "model": "GJ2.GJ3",
+      "oil_type": "0W-20",
+      "oil": 4.8,
+      "filter_oil": 5.0,
+      "part_number": null
+    },
+    "GK6.GK7": {
+      "car": null,
+      "model": "GK6.GK7",
+      "oil_type": "0W-20",
+      "oil": 4.2,
+      "filter_oil": 4.4,
+      "part_number": null
+    },
+    "GJ6.GJ7": {
+      "car": null,
+      "model": "GJ6.GJ7",
+      "oil_type": "0W-20",
+      "oil": 4.8,
+      "filter_oil": 5.0,
+      "part_number": null
+    },
+    "GE2.GE3": {
+      "car": "IMPREZA ANESIS",
+      "model": "GE2.GE3",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "GT2.GT3": {
+      "car": "IMPREZA SPORT",
+      "model": "GT2.GT3",
+      "oil_type": "0W-20",
+      "oil": 4.2,
+      "filter_oil": 4.4,
+      "part_number": null
+    },
+    "GP2.GP3": {
+      "car": null,
+      "model": "GP2.GP3",
+      "oil_type": "0W-20",
+      "oil": 4.6,
+      "filter_oil": 4.8,
+      "part_number": null
+    },
+    "GT6.GT7": {
+      "car": null,
+      "model": "GT6.GT7",
+      "oil_type": "0W-20",
+      "oil": 4.2,
+      "filter_oil": 4.4,
+      "part_number": null
+    },
+    "GP6.GP7": {
+      "car": null,
+      "model": "GP6.GP7",
+      "oil_type": "0W-20",
+      "oil": 4.6,
+      "filter_oil": 4.8,
+      "part_number": null
+    },
+    "GDD.GGC.GGD": {
+      "car": "IMPREZA WAGON",
+      "model": "GDD.GGC.GGD",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "GG2.GG3": {
+      "car": null,
+      "model": "GG2.GG3",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "GGB": {
+      "car": null,
+      "model": "GGB",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "15208-KA011"
+    },
+    "GGA": {
+      "car": null,
+      "model": "GGA",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "15208-KA011"
+    },
+    "YA4.YA5": {
+      "car": "EXIGA",
+      "model": "YA4.YA5",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "YA5": {
+      "car": null,
+      "model": "YA5",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "YAM": {
+      "car": "EXIGA CROSSOVER7",
+      "model": "YAM",
+      "oil_type": "0W-20",
+      "oil": 4.6,
+      "filter_oil": 4.8,
+      "part_number": "15208AA100"
+    },
+    "YA9": {
+      "car": null,
+      "model": "YA9",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "S321B.S331B": {
+      "car": "SAMBAR",
+      "model": "S321B.S331B",
+      "oil_type": "5W-30",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "S201J.S211J.S201H.S211H": {
+      "car": null,
+      "model": "S201J.S211J.S201H.S211H",
+      "oil_type": "5W-30",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "TV1.TV2": {
+      "car": null,
+      "model": "TV1.TV2",
+      "oil_type": "5W-30",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": null
+    },
+    "LA650F.LA660F": {
+      "car": null,
+      "model": "LA650F.LA660F",
+      "oil_type": "0W-20",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "LA600F.LA610F": {
+      "car": null,
+      "model": "LA600F.LA610F",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "M900F.M910F": {
+      "car": "JUSTY",
+      "model": "M900F.M910F",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "M900F": {
+      "car": null,
+      "model": "M900F",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": "15601-B2030"
+    },
+    "LA150F.LA160F": {
+      "car": null,
+      "model": "LA150F.LA160F",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "LA100F.LA110F": {
+      "car": null,
+      "model": "LA100F.LA110F",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "RN1.RN2": {
+      "car": null,
+      "model": "RN1.RN2",
+      "oil_type": "0W-20",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": null
+    },
+    "S321N.S331N": {
+      "car": "DIAS WAGON",
+      "model": "S321N.S331N",
+      "oil_type": "5W-30",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": null
+    },
+    "SK5": {
+      "car": "FORESTER",
+      "model": "SK5",
+      "oil_type": "0W-16",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "SKE": {
+      "car": null,
+      "model": "SKE",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "SJG": {
+      "car": null,
+      "model": "SJG",
+      "oil_type": "5W-30",
+      "oil": 4.9,
+      "filter_oil": 5.1,
+      "part_number": "15208AA100"
+    },
+    "SJ5": {
+      "car": null,
+      "model": "SJ5",
+      "oil_type": "0W-20",
+      "oil": 4.6,
+      "filter_oil": 4.8,
+      "part_number": "15208AA100"
+    },
+    "SHJ": {
+      "car": null,
+      "model": "SHJ",
+      "oil_type": "0W-20",
+      "oil": 5,
+      "filter_oil": 5.2,
+      "part_number": "15208AA100"
+    },
+    "SH5": {
+      "car": null,
+      "model": "SH5",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208-AA080"
+    },
+    "SG5": {
+      "car": null,
+      "model": "SG5",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208-AA080"
+    },
+    "SK9": {
+      "car": null,
+      "model": "SK9",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "SH9": {
+      "car": null,
+      "model": "SH9",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "SG9": {
+      "car": null,
+      "model": "SG9",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.3,
+      "part_number": "15208-AA080"
+    },
+    "L275F.L285F": {
+      "car": "PLEO",
+      "model": "L275F.L285F",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "RA1.RA2": {
+      "car": null,
+      "model": "RA1.RA2",
+      "oil_type": "5W-30",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": null
+    },
+    "RV1.RV2": {
+      "car": null,
+      "model": "RV1.RV2",
+      "oil_type": "5W-30",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": null
+    },
+    "LA350F.LA360F": {
+      "car": "PLEO PLUS",
+      "model": "LA350F.LA360F",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "LA300F.LA310F": {
+      "car": null,
+      "model": "LA300F.LA310F",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "L455F.L465F": {
+      "car": null,
+      "model": "L455F.L465F",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "VM4": {
+      "car": "LEVORG",
+      "model": "VM4",
+      "oil_type": "0W-20",
+      "oil": 4.9,
+      "filter_oil": 5.1,
+      "part_number": "15208AA100"
+    },
+    "VN5": {
+      "car": null,
+      "model": "VN5",
+      "oil_type": "0W-16",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "VMG": {
+      "car": null,
+      "model": "VMG",
+      "oil_type": "5W-30",
+      "oil": 4.9,
+      "filter_oil": 5.1,
+      "part_number": "15208AA100"
+    },
+    "BMG": {
+      "car": "LEGACY B4",
+      "model": "BMG",
+      "oil_type": "5W-30",
+      "oil": 4.9,
+      "filter_oil": 5.1,
+      "part_number": "15208AA100"
+    },
+    "BL5": {
+      "car": null,
+      "model": "BL5",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208-AA080"
+    },
+    "BN9": {
+      "car": null,
+      "model": "BN9",
+      "oil_type": "0W-20",
+      "oil": 4.6,
+      "filter_oil": 4.8,
+      "part_number": "15208AA100"
+    },
+    "BMM": {
+      "car": null,
+      "model": "BMM",
+      "oil_type": "0W-20",
+      "oil": 4.6,
+      "filter_oil": 4.8,
+      "part_number": "15208AA100"
+    },
+    "BM9": {
+      "car": null,
+      "model": "BM9",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "BL9": {
+      "car": null,
+      "model": "BL9",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "BLE": {
+      "car": null,
+      "model": "BLE",
+      "oil_type": "5W-30",
+      "oil": 5.5,
+      "filter_oil": 5.7,
+      "part_number": null
+    },
+    "BS9": {
+      "car": "LEGACY OUTBACK",
+      "model": "BS9",
+      "oil_type": "0W-20",
+      "oil": 4.6,
+      "filter_oil": 4.8,
+      "part_number": "15208AA100"
+    },
+    "BRM": {
+      "car": "LEGACY TOURING WAGON",
+      "model": "BRM",
+      "oil_type": "0W-20",
+      "oil": 4.6,
+      "filter_oil": 4.8,
+      "part_number": "15208AA100"
+    },
+    "BR9": {
+      "car": null,
+      "model": "BR9",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "BPH": {
+      "car": null,
+      "model": "BPH",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "BP9": {
+      "car": null,
+      "model": "BP9",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208AA100"
+    },
+    "BPE": {
+      "car": null,
+      "model": "BPE",
+      "oil_type": "5W-30",
+      "oil": 5.5,
+      "filter_oil": 5.7,
+      "part_number": null
+    },
+    "BRF": {
+      "car": null,
+      "model": "BRF",
+      "oil_type": "5W-30",
+      "oil": 5.5,
+      "filter_oil": 5.7,
+      "part_number": null
+    },
+    "BRG": {
+      "car": "LEGACY TOURING WAGON",
+      "model": "BRG",
+      "oil_type": "5W-30",
+      "oil": 4.9,
+      "filter_oil": 5.1,
+      "part_number": "15208AA100"
+    },
+    "BP5": {
+      "car": null,
+      "model": "BP5",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "15208-AA080"
+    },
+    "JM23W": {
+      "car": null,
+      "model": "JM23W",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "MJ23S": {
+      "car": null,
+      "model": "MJ23S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "AY01-14-300A"
+    },
+    "MJ22S": {
+      "car": null,
+      "model": "MJ22S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "AY01-14-300A"
+    },
+    "MJ21S": {
+      "car": null,
+      "model": "MJ21S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "AY01-14-300A"
+    },
+    "DK5FW.DK5AW": {
+      "car": "CX-3",
+      "model": "DK5FW.DK5AW",
+      "oil_type": "0W-20 D",
+      "oil": 4.7,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "DK8FW.DK8AW": {
+      "car": null,
+      "model": "DK8FW.DK8AW",
+      "oil_type": "0W-20 D",
+      "oil": 4.7,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "DKEFW.DKEAW": {
+      "car": null,
+      "model": "DKEFW.DKEAW",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "KFEP": {
+      "car": null,
+      "model": "KFEP",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "PE01-14-302A"
+    },
+    "KEEFW.KEEAW": {
+      "car": null,
+      "model": "KEEFW.KEEAW",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "KF2P": {
+      "car": null,
+      "model": "KF2P",
+      "oil_type": "0W-30 D",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "KE2FW.KE2AW": {
+      "car": null,
+      "model": "KE2FW.KE2AW",
+      "oil_type": "0W-30 D",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "KF5P": {
+      "car": null,
+      "model": "KF5P",
+      "oil_type": "0W-20",
+      "oil": 4.3,
+      "filter_oil": 4.5,
+      "part_number": "PE01-14-302A"
+    },
+    "KE5FW.KE5AW": {
+      "car": null,
+      "model": "KE5FW.KE5AW",
+      "oil_type": "0W-20",
+      "oil": 4.3,
+      "filter_oil": 4.5,
+      "part_number": null
+    },
+    "ER3P": {
+      "car": "CX-7",
+      "model": "ER3P",
+      "oil_type": "5W-30",
+      "oil": 5.3,
+      "filter_oil": 5.7,
+      "part_number": null
+    },
+    "KG2P": {
+      "car": "CX-8",
+      "model": "KG2P",
+      "oil_type": "0W-30 D",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "KG5P": {
+      "car": null,
+      "model": "KG5P",
+      "oil_type": "5W-30",
+      "oil": 4.6,
+      "filter_oil": 4.8,
+      "part_number": "PY8W-14-302"
+    },
+    "DM8P": {
+      "car": "CX-30",
+      "model": "DM8P",
+      "oil_type": "0W-20 D",
+      "oil": 4.7,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "DMFP": {
+      "car": null,
+      "model": "DMFP",
+      "oil_type": "0W-20",
+      "oil": 4.4,
+      "filter_oil": 4.6,
+      "part_number": null
+    },
+    "DMEP": {
+      "car": null,
+      "model": "DMEP",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "PE01-14-302B"
+    },
+    "DJLFS": {
+      "car": null,
+      "model": "DJLFS",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": "PE01-14-302A"
+    },
+    "DJ5FS,DJ5AS": {
+      "car": null,
+      "model": "DJ5FS,DJ5AS",
+      "oil_type": "0W-20 D",
+      "oil": 4.7,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "BP5P": {
+      "car": "MAZDA 3",
+      "model": "BP5P",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": "PE01-14-302B"
+    },
+    "BP8P": {
+      "car": null,
+      "model": "BP8P",
+      "oil_type": "0W-20 D",
+      "oil": 4.7,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "BPFP": {
+      "car": null,
+      "model": "BPFP",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "PE01-14-302B"
+    },
+    "BPEP": {
+      "car": null,
+      "model": "BPEP",
+      "oil_type": "0W-20",
+      "oil": 4.4,
+      "filter_oil": 4.6,
+      "part_number": null
+    },
+    "GJEFP": {
+      "car": "ATENZA",
+      "model": "GJEFP",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "PE01-14-302A"
+    },
+    "GJ2FP,GJ2AP": {
+      "car": null,
+      "model": "GJ2FP,GJ2AP",
+      "oil_type": "0W-20 D",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "GJ5FP": {
+      "car": null,
+      "model": "GJ5FP",
+      "oil_type": "0W-20",
+      "oil": 4.3,
+      "filter_oil": 4.5,
+      "part_number": "PE01-14-302A"
+    },
+    "GJEFW": {
+      "car": "ATENZA WAGON",
+      "model": "GJEFW",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "PE01-14-302A"
+    },
+    "GJ2FW,GJ2AW": {
+      "car": null,
+      "model": "GJ2FW,GJ2AW",
+      "oil_type": "0W-20 D",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "GJ5FW": {
+      "car": null,
+      "model": "GJ5FW",
+      "oil_type": "0W-20",
+      "oil": 4.3,
+      "filter_oil": 4.5,
+      "part_number": "PE01-14-302A"
+    },
+    "LY3P": {
+      "car": null,
+      "model": "LY3P",
+      "oil_type": "0W-20",
+      "oil": 5.3,
+      "filter_oil": 5.7,
+      "part_number": null
+    },
+    "DREJ3P": {
+      "car": "MX-30",
+      "model": "DREJ3P",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "PE01-14-302B"
+    },
+    "FD3S": {
+      "car": "RX-7",
+      "model": "FD3S",
+      "oil_type": "10W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": "N350-14-302 B6Y1-14-302A"
+    },
+    "FC3S.FC3C": {
+      "car": null,
+      "model": "FC3S.FC3C",
+      "oil_type": "10W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "SE3P": {
+      "car": null,
+      "model": "SE3P",
+      "oil_type": "0W-20",
+      "oil": 4.2,
+      "filter_oil": 4.4,
+      "part_number": "B6Y1-14-302A"
+    },
+    "BMLFP": {
+      "car": "AXELA",
+      "model": "BMLFP",
+      "oil_type": "0W-20 D",
+      "oil": 4.7,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "BM5FP.BM5AP": {
+      "car": null,
+      "model": "BM5FP.BM5AP",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "BL5FP": {
+      "car": null,
+      "model": "BL5FP",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": "B6Y1-14-302"
+    },
+    "BK5P": {
+      "car": null,
+      "model": "BK5P",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": "B6Y1-14-302"
+    },
+    "BYEFP": {
+      "car": null,
+      "model": "BYEFP",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "BLFFP": {
+      "car": null,
+      "model": "BLFFP",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "BLEFP": {
+      "car": null,
+      "model": "BLEFP",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "BLEAP": {
+      "car": null,
+      "model": "BLEAP",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "BKEP": {
+      "car": null,
+      "model": "BKEP",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "BM2FP.BM2AP": {
+      "car": null,
+      "model": "BM2FP.BM2AP",
+      "oil_type": "0W-30 D",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "BK3P": {
+      "car": null,
+      "model": "BK3P",
+      "oil_type": "0W-20",
+      "oil": 5.3,
+      "filter_oil": 5.7,
+      "part_number": null
+    },
+    "BMLFS": {
+      "car": "AXELA SPORT",
+      "model": "BMLFS",
+      "oil_type": "0W-20 D",
+      "oil": 4.7,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "BM5FS.BM5AS": {
+      "car": null,
+      "model": "BM5FS.BM5AS",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "BL5FW": {
+      "car": null,
+      "model": "BL5FW",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": "B6Y1-14-302"
+    },
+    "BMEFS": {
+      "car": null,
+      "model": "BMEFS",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": "PE01-14-302A"
+    },
+    "BLFFW": {
+      "car": null,
+      "model": "BLFFW",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "BLEAW": {
+      "car": null,
+      "model": "BLEAW",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "BLEFW": {
+      "car": null,
+      "model": "BLEFW",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "BM2FS": {
+      "car": null,
+      "model": "BM2FS",
+      "oil_type": "0W-30 D",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "GHEFP": {
+      "car": null,
+      "model": "GHEFP",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "GGEP": {
+      "car": null,
+      "model": "GGEP",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "GJ2FP.GJ2AP": {
+      "car": null,
+      "model": "GJ2FP.GJ2AP",
+      "oil_type": "0W-30 D",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "GG3P": {
+      "car": "MAZDASPEED ATENZA",
+      "model": "GG3P",
+      "oil_type": "0W-20",
+      "oil": 5.3,
+      "filter_oil": 5.7,
+      "part_number": null
+    },
+    "GH5FP.GH5AP": {
+      "car": null,
+      "model": "GH5FP.GH5AP",
+      "oil_type": "0W-20",
+      "oil": 4.6,
+      "filter_oil": 5.0,
+      "part_number": null
+    },
+    "GHEFS": {
+      "car": "ATENZA SPORT",
+      "model": "GHEFS",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "GGES": {
+      "car": null,
+      "model": "GGES",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "GG3S": {
+      "car": null,
+      "model": "GG3S",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.4,
+      "part_number": null
+    },
+    "GH5FS.GH5AS": {
+      "car": null,
+      "model": "GH5FS.GH5AS",
+      "oil_type": "0W-20",
+      "oil": 4.6,
+      "filter_oil": 5.0,
+      "part_number": null
+    },
+    "GHEFW": {
+      "car": null,
+      "model": "GHEFW",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "GYEW": {
+      "car": null,
+      "model": "GYEW",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "GJ2FW.GJ2AW": {
+      "car": null,
+      "model": "GJ2FW.GJ2AW",
+      "oil_type": "0W-30 D",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "GY3W": {
+      "car": null,
+      "model": "GY3W",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.4,
+      "part_number": null
+    },
+    "GH5FW.GH5AW": {
+      "car": null,
+      "model": "GH5FW.GH5AW",
+      "oil_type": "0W-20",
+      "oil": 4.6,
+      "filter_oil": 5.0,
+      "part_number": null
+    },
+    "HB36S": {
+      "car": "CAROL",
+      "model": "HB36S",
+      "oil_type": "0W-20",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": null
+    },
+    "HB35S": {
+      "car": null,
+      "model": "HB35S",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": null
+    },
+    "HB25S": {
+      "car": null,
+      "model": "HB25S",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "HB24S": {
+      "car": null,
+      "model": "HB24S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "DG17V.DG17W": {
+      "car": "SCRUM",
+      "model": "DG17V.DG17W",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.8,
+      "part_number": null
+    },
+    "DG17V": {
+      "car": null,
+      "model": "DG17V",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.8,
+      "part_number": "1A03-14-300"
+    },
+    "DG64V.DG64W": {
+      "car": "SCRUM",
+      "model": "DG64V.DG64W",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "DG64V": {
+      "car": null,
+      "model": "DG64V",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "AY01-14-300B"
+    },
+    "DG64W": {
+      "car": null,
+      "model": "DG64W",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "AY01-14-300B"
+    },
+    "DG62V.DG62W": {
+      "car": null,
+      "model": "DG62V.DG62W",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "DG16T": {
+      "car": "SCRUM TRUCK",
+      "model": "DG16T",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "AY01-14-300B"
+    },
+    "DG62T": {
+      "car": null,
+      "model": "DG62T",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "HF21S": {
+      "car": null,
+      "model": "HF21S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "DJ3FS.DJ3AS": {
+      "car": "DEMIO",
+      "model": "DJ3FS.DJ3AS",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "DEJFS": {
+      "car": null,
+      "model": "DEJFS",
+      "oil_type": "0W-20",
+      "oil": 3.5,
+      "filter_oil": 3.8,
+      "part_number": "B6Y1-14-302"
+    },
+    "DE3FS.DE3AS": {
+      "car": null,
+      "model": "DE3FS.DE3AS",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": null
+    },
+    "DY3W": {
+      "car": null,
+      "model": "DY3W",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": "B6Y1-14-302 B6Y1-14-302A"
+    },
+    "DJ5FS.DJ5AS": {
+      "car": null,
+      "model": "DJ5FS.DJ5AS",
+      "oil_type": "0W-30 D",
+      "oil": 4.8,
+      "filter_oil": 5.1,
+      "part_number": null
+    },
+    "DE5FS": {
+      "car": null,
+      "model": "DE5FS",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": "B6Y1-14-302A"
+    },
+    "DY5W": {
+      "car": null,
+      "model": "DY5W",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": "B6Y1-14-302 B6Y1-14-302A"
+    },
+    "CCFFW": {
+      "car": "BIANTE",
+      "model": "CCFFW",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "PE01-14-302A"
+    },
+    "CCEFW": {
+      "car": null,
+      "model": "CCEFW",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "CCEFW.CCEAW": {
+      "car": null,
+      "model": "CCEFW.CCEAW",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "CC3FW": {
+      "car": null,
+      "model": "CC3FW",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "NCP160M.NCP165M": {
+      "car": "FAMILIA VAN",
+      "model": "NCP160M.NCP165M",
+      "oil_type": "0W-20",
+      "oil": 3.4,
+      "filter_oil": 3.7,
+      "part_number": null
+    },
+    "MJ95S": {
+      "car": "FLAIR",
+      "model": "MJ95S",
+      "oil_type": "0W-16",
+      "oil": 2.2,
+      "filter_oil": 2.4,
+      "part_number": "1A03-14-300"
+    },
+    "MJ55S": {
+      "car": null,
+      "model": "MJ55S",
+      "oil_type": "0W-16",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": "1A03-14-300"
+    },
+    "MJ44S": {
+      "car": null,
+      "model": "MJ44S",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "AY01-14-300B"
+    },
+    "MJ34S": {
+      "car": null,
+      "model": "MJ34S",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "AY01-14-300B"
+    },
+    "MS52S": {
+      "car": "FLAIR CROSSOVER",
+      "model": "MS52S",
+      "oil_type": "5W-30",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": "1A03-14-300"
+    },
+    "MS92S": {
+      "car": null,
+      "model": "MS92S",
+      "oil_type": "0W-20",
+      "oil": 2.2,
+      "filter_oil": 2.4,
+      "part_number": "1A03-14-300"
+    },
+    "MS41S": {
+      "car": null,
+      "model": "MS41S",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "AY01-14-300B"
+    },
+    "MS31S": {
+      "car": null,
+      "model": "MS31S",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "AY01-14-300B"
+    },
+    "MM53S": {
+      "car": null,
+      "model": "MM53S",
+      "oil_type": "0W-16",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": null
+    },
+    "MM42S": {
+      "car": null,
+      "model": "MM42S",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "1A03-14-300"
+    },
+    "MM32S": {
+      "car": null,
+      "model": "MM32S",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "AY01-14-300B"
+    },
+    "MM21S": {
+      "car": null,
+      "model": "MM21S",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "AY01-14-300B"
+    },
+    "CP8W": {
+      "car": "PREMACY",
+      "model": "CP8W",
+      "oil_type": "0W-20",
+      "oil": 3.3,
+      "filter_oil": 3.5,
+      "part_number": null
+    },
+    "CWFFW": {
+      "car": null,
+      "model": "CWFFW",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": "PE01-14-302A"
+    },
+    "CWEFW": {
+      "car": null,
+      "model": "CWEFW",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "CWEAW": {
+      "car": null,
+      "model": "CWEAW",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "CREW": {
+      "car": null,
+      "model": "CREW",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "CPEW": {
+      "car": null,
+      "model": "CPEW",
+      "oil_type": "0W-20",
+      "oil": 3.3,
+      "filter_oil": 3.5,
+      "part_number": null
+    },
+    "CR3W": {
+      "car": null,
+      "model": "CR3W",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "DC5W.DC5R": {
+      "car": "VERISA",
+      "model": "DC5W.DC5R",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": null
+    },
+    "SLP2T,SLP2L": {
+      "car": "BONGO TRUCK",
+      "model": "SLP2T,SLP2L",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.5,
+      "part_number": null
+    },
+    "SLP2V,SLP2M": {
+      "car": "BONGO VAN",
+      "model": "SLP2V,SLP2M",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.5,
+      "part_number": null
+    },
+    "BL3FW": {
+      "car": "MAZDASPEED AXELA",
+      "model": "BL3FW",
+      "oil_type": "0W-20",
+      "oil": 5.3,
+      "filter_oil": 5.7,
+      "part_number": null
+    },
+    "HP22S": {
+      "car": null,
+      "model": "HP22S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "HP12S": {
+      "car": null,
+      "model": "HP12S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "ND5RC": {
+      "car": null,
+      "model": "ND5RC",
+      "oil_type": "5W-30",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": "PE01-14-302A"
+    },
+    "NB6C": {
+      "car": null,
+      "model": "NB6C",
+      "oil_type": "10W-30",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": "N350-14-302"
+    },
+    "NA6CE": {
+      "car": null,
+      "model": "NA6CE",
+      "oil_type": "10W-30",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": "B6Y1-14-302A"
+    },
+    "NB8C": {
+      "car": null,
+      "model": "NB8C",
+      "oil_type": "10W-30",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": "N350-14-302"
+    },
+    "NA8C": {
+      "car": null,
+      "model": "NA8C",
+      "oil_type": "10W-30",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "NCEC": {
+      "car": null,
+      "model": "NCEC",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.5,
+      "part_number": null
+    },
+    "NDERC": {
+      "car": "ROADSTER RF",
+      "model": "NDERC",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": "PE01-14-302B"
+    },
+    "HN22S": {
+      "car": null,
+      "model": "HN22S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "16510-81403"
+    },
+    "HN21S": {
+      "car": null,
+      "model": "HN21S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "16510-81403"
+    },
+    "MF33S": {
+      "car": null,
+      "model": "MF33S",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "16510-81403"
+    },
+    "MF22S": {
+      "car": null,
+      "model": "MF22S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "16510-81403"
+    },
+    "MF21S": {
+      "car": null,
+      "model": "MF21S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "16510-81403"
+    },
+    "YA11S.YB11S": {
+      "car": "SX4",
+      "model": "YA11S.YB11S",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": null
+    },
+    "YA41S.YB41S": {
+      "car": null,
+      "model": "YA41S.YB41S",
+      "oil_type": "5W-30",
+      "oil": 4.3,
+      "filter_oil": 4.5,
+      "part_number": null
+    },
+    "YA22S.YB22S": {
+      "car": "SX4 S-CROSS",
+      "model": "YA22S.YB22S",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "HA36S": {
+      "car": null,
+      "model": "HA36S",
+      "oil_type": "0W-20",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": "16510-84M00"
+    },
+    "HA36V": {
+      "car": null,
+      "model": "HA36V",
+      "oil_type": "0W-20",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": null
+    },
+    "HA35S": {
+      "car": null,
+      "model": "HA35S",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "16510-81403"
+    },
+    "HA25S": {
+      "car": null,
+      "model": "HA25S",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "HA25V": {
+      "car": null,
+      "model": "HA25V",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "HA24V": {
+      "car": null,
+      "model": "HA24V",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "13780-58J20 16510-81403"
+    },
+    "HA24S": {
+      "car": null,
+      "model": "HA24S",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "16510-81403"
+    },
+    "HE21S": {
+      "car": null,
+      "model": "HE21S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "16510-81403"
+    },
+    "FF21S": {
+      "car": "IGNIS",
+      "model": "FF21S",
+      "oil_type": "0W-16",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "YEA1S": {
+      "car": "ESCUDO",
+      "model": "YEA1S",
+      "oil_type": "5W-30",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "16510-81404"
+    },
+    "TA74W": {
+      "car": null,
+      "model": "TA74W",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "TD54W": {
+      "car": null,
+      "model": "TD54W",
+      "oil_type": "5W-30",
+      "oil": 5,
+      "filter_oil": 5.2,
+      "part_number": null
+    },
+    "TL52W": {
+      "car": null,
+      "model": "TL52W",
+      "oil_type": "10W-30",
+      "oil": 5,
+      "filter_oil": 5.2,
+      "part_number": null
+    },
+    "TDA4W": {
+      "car": null,
+      "model": "TDA4W",
+      "oil_type": "0W-20",
+      "oil": 4.6,
+      "filter_oil": 4.8,
+      "part_number": "16510-61A31"
+    },
+    "TD94W": {
+      "car": null,
+      "model": "TD94W",
+      "oil_type": "5W-30",
+      "oil": 4.3,
+      "filter_oil": 4.8,
+      "part_number": null
+    },
+    "TDB4W": {
+      "car": null,
+      "model": "TDB4W",
+      "oil_type": "5W-30",
+      "oil": 5.5,
+      "filter_oil": 6.0,
+      "part_number": null
+    },
+    "DA17V.DA17W": {
+      "car": null,
+      "model": "DA17V.DA17W",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.8,
+      "part_number": null
+    },
+    "DA64V.DA64W": {
+      "car": "EVERY",
+      "model": "DA64V.DA64W",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "DA62V.DA62W": {
+      "car": null,
+      "model": "DA62V.DA62W",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "DA32W": {
+      "car": "EVERY   LANDY",
+      "model": "DA32W",
+      "oil_type": "5W-30",
+      "oil": 4,
+      "filter_oil": 4.2,
+      "part_number": null
+    },
+    "RA21S.RB21S": {
+      "car": "AERIO",
+      "model": "RA21S.RB21S",
+      "oil_type": "0W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "RC51S.RD51S": {
+      "car": null,
+      "model": "RC51S.RD51S",
+      "oil_type": "0W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "EA21R": {
+      "car": "CAPPUCCINO",
+      "model": "EA21R",
+      "oil_type": "10W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "16510-81403"
+    },
+    "EA11R": {
+      "car": null,
+      "model": "EA11R",
+      "oil_type": "10W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "16510-81403"
+    },
+    "DA63T.DA65T": {
+      "car": "CARRY",
+      "model": "DA63T.DA65T",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": null
+    },
+    "DA16T": {
+      "car": null,
+      "model": "DA16T",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "16510-84M00"
+    },
+    "MN71S": {
+      "car": "XBEE",
+      "model": "MN71S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "TX92W": {
+      "car": "GRAND ESCUDO",
+      "model": "TX92W",
+      "oil_type": "5W-30",
+      "oil": 5,
+      "filter_oil": 5.5,
+      "part_number": null
+    },
+    "HR52S": {
+      "car": "CHEVROLET CRUZE",
+      "model": "HR52S",
+      "oil_type": "5W-30",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "HR82S": {
+      "car": null,
+      "model": "HR82S",
+      "oil_type": "5W-30",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "JB64W": {
+      "car": "JIMNY",
+      "model": "JB64W",
+      "oil_type": "5W-30",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "16510-84M00"
+    },
+    "JB23W": {
+      "car": null,
+      "model": "JB23W",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.0,
+      "part_number": "16510-81403"
+    },
+    "JB74W": {
+      "car": "JIMNY SIERRA",
+      "model": "JB74W",
+      "oil_type": "0W-16",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": "16510-81404"
+    },
+    "JB43W": {
+      "car": null,
+      "model": "JB43W",
+      "oil_type": "5W-30",
+      "oil": 3.8,
+      "filter_oil": 4.0,
+      "part_number": null
+    },
+    "ZC13S": {
+      "car": "SWIFT",
+      "model": "ZC13S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "16510-81420"
+    },
+    "ZC43S": {
+      "car": null,
+      "model": "ZC43S",
+      "oil_type": "0W-16",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "16510-84M00"
+    },
+    "ZC83S": {
+      "car": null,
+      "model": "ZC83S",
+      "oil_type": "0W-16",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "16510-84M00"
+    },
+    "ZD83S": {
+      "car": null,
+      "model": "ZD83S",
+      "oil_type": "0W-16",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "16510-84M00"
+    },
+    "ZC53S": {
+      "car": null,
+      "model": "ZC53S",
+      "oil_type": "0W-16",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "16510-84M00"
+    },
+    "ZD53S": {
+      "car": null,
+      "model": "ZD53S",
+      "oil_type": "0W-16",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "16510-84M00"
+    },
+    "ZC72S": {
+      "car": null,
+      "model": "ZC72S",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": "16510-81420"
+    },
+    "ZD72S": {
+      "car": null,
+      "model": "ZD72S",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": "16510-81420"
+    },
+    "ZC71S": {
+      "car": null,
+      "model": "ZC71S",
+      "oil_type": "0W-20",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "ZC11S.ZD11S": {
+      "car": null,
+      "model": "ZC11S.ZD11S",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": null
+    },
+    "HT51S": {
+      "car": null,
+      "model": "HT51S",
+      "oil_type": "5W-30",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "ZC21S.ZD21S": {
+      "car": null,
+      "model": "ZC21S.ZD21S",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": null
+    },
+    "ZC33S": {
+      "car": "SWIFT SPORTS",
+      "model": "ZC33S",
+      "oil_type": "5W-30",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "16510-81404"
+    },
+    "ZC32S": {
+      "car": null,
+      "model": "ZC32S",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": "16510-61A31"
+    },
+    "ZC31S": {
+      "car": null,
+      "model": "ZC31S",
+      "oil_type": "0W-20",
+      "oil": 3.7,
+      "filter_oil": 3.9,
+      "part_number": "16510-61A20"
+    },
+    "XB32S": {
+      "car": "SPLASH",
+      "model": "XB32S",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": "16510-81403"
+    },
+    "MK53S": {
+      "car": null,
+      "model": "MK53S",
+      "oil_type": "0W-16",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": "16510-84M00"
+    },
+    "MK42S": {
+      "car": null,
+      "model": "MK42S",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "16510-84M00"
+    },
+    "MK32S": {
+      "car": null,
+      "model": "MK32S",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "16510-81403"
+    },
+    "HG21S": {
+      "car": null,
+      "model": "HG21S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "MA27S": {
+      "car": "SOLIO",
+      "model": "MA27S",
+      "oil_type": "0W-16",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "16510-84M00"
+    },
+    "MA37S": {
+      "car": null,
+      "model": "MA37S",
+      "oil_type": "0W-16",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "16510-84M00"
+    },
+    "MA26S": {
+      "car": null,
+      "model": "MA26S",
+      "oil_type": "0W-16",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "16510-84M00"
+    },
+    "MA36S": {
+      "car": null,
+      "model": "MA36S",
+      "oil_type": "0W-16",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "16510-84M00"
+    },
+    "MA15S": {
+      "car": null,
+      "model": "MA15S",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": "16510-81403"
+    },
+    "MA34S": {
+      "car": null,
+      "model": "MA34S",
+      "oil_type": "5W-30",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "EC22S": {
+      "car": "TWIN",
+      "model": "EC22S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "MR52S": {
+      "car": "HASTLER",
+      "model": "MR52S",
+      "oil_type": "5W-30",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": "16510-84MA0"
+    },
+    "MR92S": {
+      "car": null,
+      "model": "MR92S",
+      "oil_type": "0W-20",
+      "oil": 2.2,
+      "filter_oil": 2.4,
+      "part_number": "16510-84MA0"
+    },
+    "MR41S": {
+      "car": null,
+      "model": "MR41S",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "16510-84M00"
+    },
+    "MR31S": {
+      "car": null,
+      "model": "MR31S",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "16510-81403"
+    },
+    "WB42S": {
+      "car": "BALENO",
+      "model": "WB42S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "WB32S": {
+      "car": null,
+      "model": "WB32S",
+      "oil_type": "0W-16",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": "16510-84M00"
+    },
+    "MK21S": {
+      "car": null,
+      "model": "MK21S",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "16510-82703"
+    },
+    "HE33S": {
+      "car": "LAPIN",
+      "model": "HE33S",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "16510-84M00"
+    },
+    "HE22S": {
+      "car": null,
+      "model": "HE22S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "16510-81403"
+    },
+    "SC27": {
+      "car": "LANDY",
+      "model": "SC27",
+      "oil_type": "0W-16",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": "AY100-NS004"
+    },
+    "SGC27.SGNC27": {
+      "car": null,
+      "model": "SGC27.SGNC27",
+      "oil_type": "0W-16",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "SHC26": {
+      "car": null,
+      "model": "SHC26",
+      "oil_type": "0W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": "AY100-NS004"
+    },
+    "SC26.SNC26": {
+      "car": null,
+      "model": "SC26.SNC26",
+      "oil_type": "0W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "SC25.SNC25": {
+      "car": null,
+      "model": "SC25.SNC25",
+      "oil_type": "0W-20",
+      "oil": 3.6,
+      "filter_oil": 3.8,
+      "part_number": null
+    },
+    "MH85S": {
+      "car": "WAGON R",
+      "model": "MH85S",
+      "oil_type": "0W-16",
+      "oil": 2.2,
+      "filter_oil": 2.4,
+      "part_number": "16510-84MA0"
+    },
+    "MH95S": {
+      "car": null,
+      "model": "MH95S",
+      "oil_type": "0W-16",
+      "oil": 2.2,
+      "filter_oil": 2.4,
+      "part_number": "16510-84MA0"
+    },
+    "MH35S": {
+      "car": null,
+      "model": "MH35S",
+      "oil_type": "0W-16",
+      "oil": 2.4,
+      "filter_oil": 2.6,
+      "part_number": "16510-84M00"
+    },
+    "MH55S": {
+      "car": null,
+      "model": "MH55S",
+      "oil_type": "5W-30",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "16510-84M00"
+    },
+    "MH44S": {
+      "car": null,
+      "model": "MH44S",
+      "oil_type": "0W-20",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "16510-81420"
+    },
+    "MH34S": {
+      "car": null,
+      "model": "MH34S",
+      "oil_type": "5W-30",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": "16510-81420"
+    },
+    "MH23S": {
+      "car": null,
+      "model": "MH23S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "16510-81403"
+    },
+    "MH22S": {
+      "car": null,
+      "model": "MH22S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "16510-81403"
+    },
+    "MH21S": {
+      "car": null,
+      "model": "MH21S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "16510-81403"
+    },
+    "MA64S": {
+      "car": "WAGON R SORIO",
+      "model": "MA64S",
+      "oil_type": "5W-30",
+      "oil": 3.2,
+      "filter_oil": 3.5,
+      "part_number": null
+    },
+    "M201G.M211G": {
+      "car": null,
+      "model": "M201G.M211G",
+      "oil_type": "5W-30",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "S321G.S331G": {
+      "car": null,
+      "model": "S321G.S331G",
+      "oil_type": "5W-30",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": null
+    },
+    "S320G.S330G": {
+      "car": null,
+      "model": "S320G.S330G",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "S220G.S230G": {
+      "car": null,
+      "model": "S220G.S230G",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "ACV40N.ACV45N": {
+      "car": "ALTIS",
+      "model": "ACV40N.ACV45N",
+      "oil_type": "0W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "ACV30N.SXV35N": {
+      "car": null,
+      "model": "ACV30N.SXV35N",
+      "oil_type": "5W-20",
+      "oil": 4.1,
+      "filter_oil": 4.3,
+      "part_number": null
+    },
+    "AXVH70N": {
+      "car": null,
+      "model": "AXVH70N",
+      "oil_type": "0W-16",
+      "oil": 4.2,
+      "filter_oil": 4.5,
+      "part_number": "90915-10009"
+    },
+    "AVV50N": {
+      "car": null,
+      "model": "AVV50N",
+      "oil_type": "0W-20",
+      "oil": 4,
+      "filter_oil": 4.4,
+      "part_number": null
+    },
+    "LA700S.LA710S": {
+      "car": null,
+      "model": "LA700S.LA710S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "L235S.L245S": {
+      "car": "ESSE",
+      "model": "L235S.L245S",
+      "oil_type": "5W-30",
+      "oil": 2.6,
+      "filter_oil": 2.8,
+      "part_number": null
+    },
+    "LA250S.LA260S": {
+      "car": null,
+      "model": "LA250S.LA260S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "M401S.M411S": {
+      "car": "COO",
+      "model": "M401S.M411S",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "M402S": {
+      "car": null,
+      "model": "M402S",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "LA400K": {
+      "car": "COPEN",
+      "model": "LA400K",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": "15601-B2030"
+    },
+    "L880K": {
+      "car": null,
+      "model": "L880K",
+      "oil_type": "5W-30",
+      "oil": 2.5,
+      "filter_oil": 2.7,
+      "part_number": "15601-97201"
+    },
+    "L405S.L415S": {
+      "car": "SONICA",
+      "model": "L405S.L415S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "LA650S.LA660S": {
+      "car": null,
+      "model": "LA650S.LA660S",
+      "oil_type": "0W-20",
+      "oil": 3.1,
+      "filter_oil": 3.3,
+      "part_number": null
+    },
+    "LA600S.LA610S": {
+      "car": null,
+      "model": "LA600S.LA610S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "L375S.L385S": {
+      "car": null,
+      "model": "L375S.L385S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "L350S.S360S": {
+      "car": null,
+      "model": "L350S.S360S",
+      "oil_type": "5W-30",
+      "oil": 2.1,
+      "filter_oil": 2.3,
+      "part_number": null
+    },
+    "L455S.L465S": {
+      "car": null,
+      "model": "L455S.L465S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "M900S､M910S": {
+      "car": "THOR",
+      "model": "M900S､M910S",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "M900S": {
+      "car": null,
+      "model": "M900S",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": "15601-B2030"
+    },
+    "S500P.S510P": {
+      "car": "HIJET/ATRAI",
+      "model": "S500P.S510P",
+      "oil_type": "5W-30",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "S321V.S331V": {
+      "car": null,
+      "model": "S321V.S331V",
+      "oil_type": "5W-30",
+      "oil": 3,
+      "filter_oil": 3.2,
+      "part_number": null
+    },
+    "S201P.S211P": {
+      "car": null,
+      "model": "S201P.S211P",
+      "oil_type": "5W-30",
+      "oil": 3.2,
+      "filter_oil": 3.4,
+      "part_number": null
+    },
+    "S320V.S330V.S320W.S330W": {
+      "car": null,
+      "model": "S320V.S330V.S320W.S330W",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "S320V.S330V": {
+      "car": null,
+      "model": "S320V.S330V",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "S200P.S210P": {
+      "car": null,
+      "model": "S200P.S210P",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "M312S": {
+      "car": "BOON",
+      "model": "M312S",
+      "oil_type": "5W-30",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "M700S.M710S": {
+      "car": null,
+      "model": "M700S.M710S",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "M600S.M610S": {
+      "car": null,
+      "model": "M600S.M610S",
+      "oil_type": "5W-30",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "M300S.M310S": {
+      "car": null,
+      "model": "M300S.M310S",
+      "oil_type": "5W-30",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "M601S": {
+      "car": null,
+      "model": "M601S",
+      "oil_type": "5W-30",
+      "oil": 3.4,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "M301S": {
+      "car": null,
+      "model": "M301S",
+      "oil_type": "5W-30",
+      "oil": 3.3,
+      "filter_oil": 3.6,
+      "part_number": null
+    },
+    "M502G.M512G": {
+      "car": "BOON Luminas",
+      "model": "M502G.M512G",
+      "oil_type": "5W-30",
+      "oil": 2.8,
+      "filter_oil": 3.1,
+      "part_number": null
+    },
+    "L952S.L962S": {
+      "car": "MAX",
+      "model": "L952S.L962S",
+      "oil_type": "5w-30",
+      "oil": 2.5,
+      "filter_oil": 2.7,
+      "part_number": null
+    },
+    "L950S": {
+      "car": null,
+      "model": "L950S",
+      "oil_type": "5W-30",
+      "oil": 2.1,
+      "filter_oil": 2.3,
+      "part_number": null
+    },
+    "L950S.L960S": {
+      "car": null,
+      "model": "L950S.L960S",
+      "oil_type": "5W-30",
+      "oil": 2.1,
+      "filter_oil": 2.3,
+      "part_number": null
+    },
+    "L250S.L250V.L260S.L260V": {
+      "car": null,
+      "model": "L250S.L250V.L260S.L260V",
+      "oil_type": "5W-30",
+      "oil": 2.1,
+      "filter_oil": 2.3,
+      "part_number": null
+    },
+    "L275S.L285S": {
+      "car": null,
+      "model": "L275S.L285S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "L250S.L260S": {
+      "car": null,
+      "model": "L250S.L260S",
+      "oil_type": "5W-30",
+      "oil": 2.1,
+      "filter_oil": 2.3,
+      "part_number": null
+    },
+    "LA350S.LA360S": {
+      "car": "MIRA eS",
+      "model": "LA350S.LA360S",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "LA300S.LA310S": {
+      "car": null,
+      "model": "LA300S.LA310S",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "L675S.L685S": {
+      "car": "MIRA COCOA",
+      "model": "L675S.L685S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "L650S.L660S": {
+      "car": "MIRA GINO",
+      "model": "L650S.L660S",
+      "oil_type": "5W-30",
+      "oil": 2.1,
+      "filter_oil": 2.3,
+      "part_number": null
+    },
+    "LA550S,LA560S": {
+      "car": "MIRA TOCOT",
+      "model": "LA550S,LA560S",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "LA150S.LA160S": {
+      "car": null,
+      "model": "LA150S.LA160S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "LA100S.LA110S": {
+      "car": null,
+      "model": "LA100S.LA110S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "L175S.L185S": {
+      "car": null,
+      "model": "L175S.L185S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "L150S": {
+      "car": null,
+      "model": "L150S",
+      "oil_type": "5W-30",
+      "oil": 2.1,
+      "filter_oil": 2.3,
+      "part_number": "15601-87204 15601-87703"
+    },
+    "L152S": {
+      "car": null,
+      "model": "L152S",
+      "oil_type": "5W-30",
+      "oil": 2.1,
+      "filter_oil": 2.3,
+      "part_number": "15601-87204"
+    },
+    "LA800S.LA810S": {
+      "car": "MOVE CANBUS",
+      "model": "LA800S.LA810S",
+      "oil_type": "0W-20",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "L575S.L585S": {
+      "car": null,
+      "model": "L575S.L585S",
+      "oil_type": "5W-30",
+      "oil": 2.7,
+      "filter_oil": 2.9,
+      "part_number": null
+    },
+    "L550S.L560S": {
+      "car": null,
+      "model": "L550S.L560S",
+      "oil_type": "5W-30",
+      "oil": 2.1,
+      "filter_oil": 2.3,
+      "part_number": null
+    },
+    "ZVW41N": {
+      "car": "MEBIUS",
+      "model": "ZVW41N",
+      "oil_type": "0W-20",
+      "oil": 3.9,
+      "filter_oil": 4.2,
+      "part_number": "90915-10003"
+    },
+    "A200S.A210S": {
+      "car": "ROCKY",
+      "model": "A200S.A210S",
+      "oil_type": "0W-20",
+      "oil": 2.9,
+      "filter_oil": 3.1,
+      "part_number": null
+    }
+  }
+};
