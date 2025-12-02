@@ -5164,7 +5164,6 @@ const oilData = {
             "oil": 5,
             "filter_oil": 5.5,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -5775,7 +5774,6 @@ const oilData = {
             "oil": 3.3,
             "filter_oil": 3.6,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -5788,7 +5786,6 @@ const oilData = {
             "oil": 3.3,
             "filter_oil": 3.6,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -5801,7 +5798,6 @@ const oilData = {
             "oil": 3.3,
             "filter_oil": 3.6,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -5814,7 +5810,6 @@ const oilData = {
             "oil": 3.3,
             "filter_oil": 3.6,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -6071,7 +6066,6 @@ const oilData = {
             "oil": 4.4,
             "filter_oil": 4.7,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -6084,7 +6078,6 @@ const oilData = {
             "oil": 4.4,
             "filter_oil": 4.7,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -6119,7 +6112,6 @@ const oilData = {
             "oil": 4.4,
             "filter_oil": 4.7,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -6142,7 +6134,6 @@ const oilData = {
             "oil": 4.4,
             "filter_oil": 4.7,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -6165,7 +6156,6 @@ const oilData = {
             "oil": 3.5,
             "filter_oil": 3.9,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -6388,7 +6378,6 @@ const oilData = {
             "oil": 5,
             "filter_oil": 5.6,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -6401,7 +6390,6 @@ const oilData = {
             "oil": 6,
             "filter_oil": 6.6,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -6738,7 +6726,6 @@ const oilData = {
             "oil": 4.1,
             "filter_oil": 4.3,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -6751,7 +6738,6 @@ const oilData = {
             "oil": null,
             "filter_oil": null,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -6764,7 +6750,6 @@ const oilData = {
             "oil": 4,
             "filter_oil": 4.2,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -6777,7 +6762,6 @@ const oilData = {
             "oil": null,
             "filter_oil": null,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -6790,7 +6774,6 @@ const oilData = {
             "oil": null,
             "filter_oil": null,
             "ACDelco_number": [
-                "PF311J",
                 "PF312J"
             ]
         },
@@ -8071,8 +8054,7 @@ const oilData = {
             "oil": 4,
             "filter_oil": 4.2,
             "ACDelco_number": [
-                "PF303J",
-                "PF311J"
+                "PF303J"
             ]
         },
         "B44A": {
@@ -8693,9 +8675,7 @@ const oilData = {
             "oil_api": "0W-20 SP",
             "oil": 3.4,
             "filter_oil": 3.7,
-            "ACDelco_number": [
-                "PF311J"
-            ]
+            "ACDelco_number": null
         },
         "DC5": {
             "car": "インテグラ タイプR",
@@ -9777,9 +9757,7 @@ const oilData = {
             "oil_api": "5W-30 SP",
             "oil": 2.5,
             "filter_oil": 2.7,
-            "ACDelco_number": [
-                "PF311J"
-            ]
+            "ACDelco_number": null
         },
         "HM2": {
             "car": "バモス",
@@ -9789,9 +9767,7 @@ const oilData = {
             "oil_api": "5W-30 SP",
             "oil": 2.5,
             "filter_oil": 2.7,
-            "ACDelco_number": [
-                "PF311J"
-            ]
+            "ACDelco_number": null
         },
         "PP1": {
             "car": "ビート",
@@ -14104,7 +14080,9 @@ const oilData = {
             "oil_api": null,
             "oil": null,
             "filter_oil": null,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "HN22S": {
             "car": "Kei",
@@ -14114,7 +14092,9 @@ const oilData = {
             "oil_api": "5W-30 SP",
             "oil": 2.7,
             "filter_oil": 2.9,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "HN11S": {
             "car": "Kei",
@@ -14124,7 +14104,9 @@ const oilData = {
             "oil_api": null,
             "oil": null,
             "filter_oil": null,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "HN21S": {
             "car": "Kei",
@@ -14134,7 +14116,9 @@ const oilData = {
             "oil_api": "5W-30 SP",
             "oil": 2.7,
             "filter_oil": 2.9,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "MF33S": {
             "car": "MRワゴン",
@@ -14144,7 +14128,9 @@ const oilData = {
             "oil_api": "0W-20 SP",
             "oil": 2.7,
             "filter_oil": 2.9,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "MF22S": {
             "car": "MRワゴン",
@@ -14154,7 +14140,9 @@ const oilData = {
             "oil_api": "5W-30 SP",
             "oil": 2.7,
             "filter_oil": 2.9,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "MF21S": {
             "car": "MRワゴン",
@@ -14164,7 +14152,9 @@ const oilData = {
             "oil_api": "5W-30 SP",
             "oil": 2.7,
             "filter_oil": 2.9,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "YA11S": {
             "car": "SX4",
@@ -14244,7 +14234,9 @@ const oilData = {
             "oil_api": "0W-20 SP",
             "oil": 2.6,
             "filter_oil": 2.8,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "HA24V": {
             "car": "アルト",
@@ -14254,7 +14246,9 @@ const oilData = {
             "oil_api": "0W-20 SP",
             "oil": 2.7,
             "filter_oil": 2.9,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "HA24S": {
             "car": "アルト",
@@ -14264,7 +14258,9 @@ const oilData = {
             "oil_api": "0W-20 SP",
             "oil": 2.7,
             "filter_oil": 2.9,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "HE22S": {
             "car": "アルトラパン",
@@ -14274,7 +14270,9 @@ const oilData = {
             "oil_api": "5W-30 SP",
             "oil": 2.7,
             "filter_oil": 2.9,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "HE21S": {
             "car": "アルトラパン",
@@ -14284,7 +14282,9 @@ const oilData = {
             "oil_api": "5W-30 SP",
             "oil": 2.7,
             "filter_oil": 2.9,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "YEA1S": {
             "car": "エスクード",
@@ -14366,7 +14366,9 @@ const oilData = {
             "oil_api": "5W-30 SP",
             "oil": 2.8,
             "filter_oil": 3.0,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "EA21R": {
             "car": "カプチーノ",
@@ -14376,7 +14378,9 @@ const oilData = {
             "oil_api": "10W-40 SP",
             "oil": 2.7,
             "filter_oil": 2.9,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "EA11R": {
             "car": "カプチーノ",
@@ -14386,7 +14390,9 @@ const oilData = {
             "oil_api": "10W-40 SP",
             "oil": 2.8,
             "filter_oil": 3.0,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "DA16T": {
             "car": "スーパーキャリイ",
@@ -14416,7 +14422,9 @@ const oilData = {
             "oil_api": "5W-30 SP",
             "oil": 2.8,
             "filter_oil": 3.0,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "JB74W": {
             "car": "ジムニーシエラ",
@@ -14596,7 +14604,9 @@ const oilData = {
             "oil_api": "0W-20 SP",
             "oil": 2.9,
             "filter_oil": 3.1,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "MK94S": {
             "car": "スペーシア",
@@ -14646,7 +14656,9 @@ const oilData = {
             "oil_api": "0W-20 SP",
             "oil": 2.6,
             "filter_oil": 2.8,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "MAD7S": {
             "car": "ソリオ",
@@ -14716,7 +14728,9 @@ const oilData = {
             "oil_api": "0W-20 SP",
             "oil": 2.9,
             "filter_oil": 3.1,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "MR92S": {
             "car": "ハスラー",
@@ -14756,7 +14770,9 @@ const oilData = {
             "oil_api": "0W-20 SP",
             "oil": 2.6,
             "filter_oil": 2.8,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "WB32S": {
             "car": "バレーノ",
@@ -15022,7 +15038,9 @@ const oilData = {
             "oil_api": "5W-30 SP",
             "oil": 2.7,
             "filter_oil": 2.9,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "MH22S": {
             "car": "ワゴンR",
@@ -15032,7 +15050,9 @@ const oilData = {
             "oil_api": "5W-30 SP",
             "oil": 2.7,
             "filter_oil": 2.9,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "MH21S": {
             "car": "ワゴンR",
@@ -15042,7 +15062,9 @@ const oilData = {
             "oil_api": "5W-30 SP",
             "oil": 2.7,
             "filter_oil": 2.9,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "MC22S": {
             "car": "ワゴンR",
@@ -15052,7 +15074,9 @@ const oilData = {
             "oil_api": null,
             "oil": null,
             "filter_oil": null,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "MC21S": {
             "car": "ワゴンR",
@@ -15062,7 +15086,9 @@ const oilData = {
             "oil_api": null,
             "oil": null,
             "filter_oil": null,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "MC11S": {
             "car": "ワゴンR",
@@ -15072,7 +15098,9 @@ const oilData = {
             "oil_api": null,
             "oil": null,
             "filter_oil": null,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "CT51S": {
             "car": "ワゴンR",
@@ -15082,7 +15110,9 @@ const oilData = {
             "oil_api": null,
             "oil": null,
             "filter_oil": null,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "CV51S": {
             "car": "ワゴンR",
@@ -15092,7 +15122,9 @@ const oilData = {
             "oil_api": null,
             "oil": null,
             "filter_oil": null,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "CT21S": {
             "car": "ワゴンR",
@@ -15102,7 +15134,9 @@ const oilData = {
             "oil_api": null,
             "oil": null,
             "filter_oil": null,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "CV21S": {
             "car": "ワゴンR",
@@ -15112,7 +15146,9 @@ const oilData = {
             "oil_api": null,
             "oil": null,
             "filter_oil": null,
-            "ACDelco_number": null
+            "ACDelco_number": [
+                "PF308J"
+            ]
         },
         "MX91S": {
             "car": "ワゴンRスマイル",

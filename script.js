@@ -6,6 +6,20 @@ function toHalfWidth(str) {
   }).replace(/　/g, " ");
 }
 
+// 初期フォントサイズを画面幅に応じて設定
+function setDefaultFontSize() {
+    const table = document.querySelector('#result table');
+    if (!table) return;
+
+    // 画面幅 768px 以下をスマホと判定
+    const isMobile = window.innerWidth <= 768;
+    const fontSize = isMobile ? '10px' : '13px';
+
+    table.querySelectorAll('th, td').forEach(cell => {
+        cell.style.fontSize = fontSize;
+    });
+}
+
 // あいまい検索でオイル情報を表示
 function searchModel() { 
     const query = toHalfWidth(document.getElementById('modelInput').value.trim()).toLowerCase();
@@ -39,7 +53,7 @@ function searchModel() {
     }
 
     // テーブル生成
-    let html = '<table>';
+    let html = '<table class="table_design">';
     html += `
         <tr>
             <th>車種</th>
@@ -68,6 +82,9 @@ function searchModel() {
 
     html += '</table>';
     resultDiv.innerHTML = html;
+
+    // デフォルトフォントサイズを適用
+    setDefaultFontSize();
 }
 
 document.getElementById("modelInput").addEventListener("keydown", function (e) {

@@ -3,8 +3,6 @@
     background-color: #f8f8f8;
   }
   .container {
-    min-width: 500px;
-    max-width: 600px;   /* ★スマホ幅に合わせてコンパクトに */
     margin: auto;
   }
   h2 {
@@ -37,7 +35,6 @@ button:hover {
   text-align: center;
 }
 table {
-    width: 100%;
     border-collapse: collapse;
     margin-top: 15px;
     text-align: center;
@@ -48,7 +45,6 @@ th, td {
     text-align: left;
     font-size: 13px;
     text-align: center;
-    min-width: 50px;
 }
 th {
     background-color: #898989;
@@ -87,12 +83,15 @@ tr:hover {background-color: #f1f1f1;}
     background: #007bff;
     color: white;
 }
+
+#result{
+  place-items: center;
+}
   @media (max-width: 400px) {
     input[type="text"] {
       width: 60%;
     }
     table th, table td {
-      font-size: 12px;
       padding: 4px;
     }
   }
