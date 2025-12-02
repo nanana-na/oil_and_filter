@@ -1,4 +1,6 @@
 function toHalfWidth(str) {
+  str = str ?? ""; // nullやundefinedの場合は空文字に
+  str = String(str); // 念のため文字列に変換
   return str.replace(/[！-～]/g, function(ch) {
     return String.fromCharCode(ch.charCodeAt(0) - 0xFEE0);
   }).replace(/　/g, " ");
@@ -6,27 +8,28 @@ function toHalfWidth(str) {
 
 // あいまい検索でオイル情報を表示
 function searchModel() { 
-    const query = toHalfWidth(document.getElementById('modelInput').value.trim().toLowerCase());
+    const query = toHalfWidth(document.getElementById('modelInput').value.trim()).toLowerCase();
     const resultDiv = document.getElementById('result');
     resultDiv.innerHTML = "";
 
     if (!query) {
-        alert("モデルを入力してください");
+        alert("モデルまたは車種を入力してください");
         return;
     }
 
     const results = [];
 
     for (const key in oilData.all_oil) {
-        let model = oilData.all_oil[key].model;
+        const item = oilData.all_oil[key];
+        let model = item.model ?? "";
+        let car = item.car ?? "";
 
-        // ▼ 安全チェック（これがないとエラーになる）
-        if (typeof model !== "string") continue;
+        // 半角・小文字化
+        model = toHalfWidth(model).toLowerCase();
+        car = toHalfWidth(car).toLowerCase();
 
-        model = model.toLowerCase();
-
-        if (model.includes(query)) {
-            results.push(oilData.all_oil[key]);
+        if (model.includes(query) || car.includes(query)) {
+            results.push(item);
         }
     }
 
