@@ -1,10 +1,10 @@
 function toHalfWidth(str) {
   return str.replace(/[！-～]/g, function(ch) {
     return String.fromCharCode(ch.charCodeAt(0) - 0xFEE0);
-  }).replace(/　/g, " "); // 全角スペースも半角に
+  }).replace(/　/g, " ");
 }
 
-// あいまい検索でオイル情報を表示する関数
+// あいまい検索でオイル情報を表示
 function searchModel() { 
     const query = toHalfWidth(document.getElementById('modelInput').value.trim().toLowerCase());
     const resultDiv = document.getElementById('result');
@@ -16,9 +16,16 @@ function searchModel() {
     }
 
     const results = [];
+
     for (const key in oilData.all_oil) {
-        const model = oilData.all_oil[key].model.toLowerCase();
-        if (model.includes(query)) {  // 部分一致
+        let model = oilData.all_oil[key].model;
+
+        // ▼ 安全チェック（これがないとエラーになる）
+        if (typeof model !== "string") continue;
+
+        model = model.toLowerCase();
+
+        if (model.includes(query)) {
             results.push(oilData.all_oil[key]);
         }
     }
@@ -28,38 +35,41 @@ function searchModel() {
         return;
     }
 
-    // テーブル作成
+    // テーブル生成
     let html = '<table>';
-    html += `<tr>
-                <th>車種</th>
-                <th>型式</th>
-                <th>純正オイル</th>
-                <th>APIオイル</th>
-                <th>オイル(L)</th>
-                <th>+フィルター(L)</th>
-                <th>純正部品番号</th>
-                <th>ACデルコ品番</th>
-             </tr>`;
+    html += `
+        <tr>
+            <th>車種</th>
+            <th>型式</th>
+            <th>純正オイル</th>
+            <th>APIオイル</th>
+            <th>オイル(L)</th>
+            <th>+フィルター(L)</th>
+            <th>ACデルコ品番</th>
+            <th>純正部品番号</th>
+        </tr>`;
+    
     results.forEach(item => {
-        html += `<tr>
-                    <td>${item.car}</td>
-                    <td>${item.model}</td>
-                    <td>${item.oil_type}</td>
-                    <td>${item.oil_api}</td>
-                    <td>${item.oil}</td>
-                    <td>${item.filter_oil}</td>
-                    <td>${item.part_number !== null ? item.part_number : 'null'}</td>
-                    <td>${item.ACDelco_number !== null ? item.ACDelco_number : 'null'}</td>
-                 </tr>`;
+        html += `
+            <tr>
+                <td>${item.car ?? 'null'}</td>
+                <td>${item.model ?? 'null'}</td>
+                <td>${item.oil_type ?? 'null'}</td>
+                <td>${item.oil_api ?? 'null'}</td>
+                <td>${item.oil ?? 'null'}</td>
+                <td>${item.filter_oil ?? 'null'}</td>
+                <td>${item.ACDelco_number ?? 'null'}</td>
+                <td>${item.part_number ?? 'null'}</td>
+            </tr>`;
     });
-    html += '</table>';
 
+    html += '</table>';
     resultDiv.innerHTML = html;
 }
 
 document.getElementById("modelInput").addEventListener("keydown", function (e) {
   if (e.key === "Enter") {
-    e.preventDefault();   // iPhoneでの勝手な改行を防ぐ
+    e.preventDefault();
     searchModel();
   }
 });
