@@ -84,8 +84,11 @@ tr:hover {background-color: #f1f1f1;}
     color: white;
 }
 
-#result{
-  place-items: center;
+#result {
+    display: flex;
+    justify-content: center; /* 水平方向中央 */
+    align-items: center;     /* 垂直方向中央 */
+    flex-direction: column;  /* テキストやテーブルが縦に並ぶ場合用 */
 }
   @media (max-width: 400px) {
     input[type="text"] {
