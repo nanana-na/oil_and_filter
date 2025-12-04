@@ -79,7 +79,7 @@ tr:hover {background-color: #f1f1f1;}
     padding: 4px 8px;
     border-radius: 4px;
 }
-.blue-link:hover {
+.top-link:hover, .blue-link:hover {
     background: #007bff;
     color: white;
 }
